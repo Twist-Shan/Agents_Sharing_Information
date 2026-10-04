@@ -1,0 +1,194 @@
+[
+  {
+    "policy": "complement",
+    "encoding": "prose",
+    "safe": 4,
+    "law": "R",
+    "n": 512,
+    "mean_regret": 0.68359375
+  },
+  {
+    "policy": "complement",
+    "encoding": "prose",
+    "safe": 4,
+    "law": "S",
+    "n": 512,
+    "mean_regret": 0.921875
+  },
+  {
+    "policy": "complement",
+    "encoding": "prose",
+    "safe": 6,
+    "law": "R",
+    "n": 512,
+    "mean_regret": 0.35546875
+  },
+  {
+    "policy": "complement",
+    "encoding": "prose",
+    "safe": 6,
+    "law": "S",
+    "n": 512,
+    "mean_regret": 1.5703125
+  },
+  {
+    "policy": "complement",
+    "encoding": "table",
+    "safe": 4,
+    "law": "R",
+    "n": 512,
+    "mean_regret": 0.59765625
+  },
+  {
+    "policy": "complement",
+    "encoding": "table",
+    "safe": 4,
+    "law": "S",
+    "n": 512,
+    "mean_regret": 1.4453125
+  },
+  {
+    "policy": "complement",
+    "encoding": "table",
+    "safe": 6,
+    "law": "R",
+    "n": 512,
+    "mean_regret": 0.328125
+  },
+  {
+    "policy": "complement",
+    "encoding": "table",
+    "safe": 6,
+    "law": "S",
+    "n": 512,
+    "mean_regret": 1.81640625
+  },
+  {
+    "policy": "independent",
+    "encoding": "prose",
+    "safe": 4,
+    "law": "R",
+    "n": 2048,
+    "mean_regret": 0.49609375
+  },
+  {
+    "policy": "independent",
+    "encoding": "prose",
+    "safe": 4,
+    "law": "S",
+    "n": 2048,
+    "mean_regret": 0.3818359375
+  },
+  {
+    "policy": "independent",
+    "encoding": "prose",
+    "safe": 6,
+    "law": "R",
+    "n": 2048,
+    "mean_regret": 0.4228515625
+  },
+  {
+    "policy": "independent",
+    "encoding": "prose",
+    "safe": 6,
+    "law": "S",
+    "n": 2048,
+    "mean_regret": 0.544921875
+  },
+  {
+    "policy": "independent",
+    "encoding": "table",
+    "safe": 4,
+    "law": "R",
+    "n": 2048,
+    "mean_regret": 0.47021484375
+  },
+  {
+    "policy": "independent",
+    "encoding": "table",
+    "safe": 4,
+    "law": "S",
+    "n": 2048,
+    "mean_regret": 0.38818359375
+  },
+  {
+    "policy": "independent",
+    "encoding": "table",
+    "safe": 6,
+    "law": "R",
+    "n": 2048,
+    "mean_regret": 0.4921875
+  },
+  {
+    "policy": "independent",
+    "encoding": "table",
+    "safe": 6,
+    "law": "S",
+    "n": 2048,
+    "mean_regret": 0.5302734375
+  },
+  {
+    "policy": "responsive",
+    "encoding": "prose",
+    "safe": 4,
+    "law": "R",
+    "n": 512,
+    "mean_regret": 0.591796875
+  },
+  {
+    "policy": "responsive",
+    "encoding": "prose",
+    "safe": 4,
+    "law": "S",
+    "n": 512,
+    "mean_regret": 1.453125
+  },
+  {
+    "policy": "responsive",
+    "encoding": "prose",
+    "safe": 6,
+    "law": "R",
+    "n": 512,
+    "mean_regret": 0.37890625
+  },
+  {
+    "policy": "responsive",
+    "encoding": "prose",
+    "safe": 6,
+    "law": "S",
+    "n": 512,
+    "mean_regret": 0.8984375
+  },
+  {
+    "policy": "responsive",
+    "encoding": "table",
+    "safe": 4,
+    "law": "R",
+    "n": 512,
+    "mean_regret": 0.59375
+  },
+  {
+    "policy": "responsive",
+    "encoding": "table",
+    "safe": 4,
+    "law": "S",
+    "n": 512,
+    "mean_regret": 1.86328125
+  },
+  {
+    "policy": "responsive",
+    "encoding": "table",
+    "safe": 6,
+    "law": "R",
+    "n": 512,
+    "mean_regret": 0.44140625
+  },
+  {
+    "policy": "responsive",
+    "encoding": "table",
+    "safe": 6,
+    "law": "S",
+    "n": 512,
+    "mean_regret": 1.3671875
+  }
+]

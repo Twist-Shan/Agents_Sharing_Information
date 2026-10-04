@@ -14,3 +14,9 @@ The standalone repository was checked before its initial upload:
 The default command copies data into a new output directory, so replay lock files and generated exports do not alter the immutable inputs. It refuses an existing output directory; use `--output outputs/another_run` for a second verification. User-site packages are disabled in child analyses to prevent accidental mixing of incompatible NumPy/SciPy installations.
 
 Historical collection entry points are included for provenance and inspection; they have not been advertised or tested as fresh end-to-end API runs. Live endpoints, costs, and provider behavior require separate verification before new collection.
+
+## Targeted follow-up revision
+
+The extended root workflow passed in a clean output copy with network connections blocked. All original 106 scientific hashes were preserved; the expanded manifest verifies 128 files. The checks reconstruct the original 44,800 choices and 36 contrasts, the 5,376-response diagnostic study, and all 5,632 targeted responses. A separate implementation checks the targeted study's eight estimates, approximate and conservative intervals, and all 88 cell summaries. Descriptive expected regret is reconstructed from 24,576 original programmed-partner choices. No new API request is made by reproduction.
+
+The targeted run has two transport retries and no final missing scientific IDs. Both first-attempt and final-answer exports remain archived. The new known API charge is $0.2627016, with $0.001609 reserved for unknown charges; cumulative occupied accounting is $43.94696833418 under the authorized $50 cap. These are historical ledger values, not a fresh collection budget.

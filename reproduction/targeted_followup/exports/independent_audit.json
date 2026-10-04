@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "scientific_responses": 5632,
+  "first_attempt_valid": 5630,
+  "primary_estimates_verified": 8,
+  "approximate_and_conservative_intervals_verified": 8,
+  "cell_scores_verified": 88,
+  "payoff_components": {
+    "full_R": {
+      "n": 256,
+      "join_correct": 75,
+      "safe_correct": 256
+    },
+    "lottery": {
+      "n": 256,
+      "join_correct": 256,
+      "safe_correct": 256
+    },
+    "full_S": {
+      "n": 256,
+      "join_correct": 82,
+      "safe_correct": 256
+    }
+  },
+  "full_context_anchor_join_reports": {
+    "1.0": 30,
+    "5.0": 69,
+    "2.5": 19,
+    "1.25": 10
+  },
+  "manifest_sha256": "ddf7c5df0593d575722cc845f6730daabb11e2ae3c142930774fcf7eb1157dde",
+  "analysis_sha256": "e567890f46ecd963d981dcdd68e7053cc5df936387e0f2f4579161df0c7b1e9b"
+}

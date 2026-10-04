@@ -1,0 +1,115 @@
+{
+  "profiles": [
+    {
+      "key": "luna",
+      "model_id": "openai/gpt-6-luna",
+      "provider_tag": "openai",
+      "provider_name": "OpenAI",
+      "endpoint_name": "OpenAI | openai/gpt-6-luna-20260922",
+      "endpoint_model_identifier": "openai/gpt-6-luna-20260922",
+      "api_url": "https://openrouter.ai/api/v1/chat/completions",
+      "request_reasoning": {
+        "effort": "none"
+      },
+      "provider_request": {
+        "only": [
+          "openai"
+        ],
+        "ignore": [
+          "amazon-bedrock/us-east-1",
+          "azure",
+          "azure/eu",
+          "azure/us",
+          "openai/fast",
+          "openai/flex"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request_forbidden_fields": [
+        "tools",
+        "tool_choice",
+        "temperature",
+        "top_p",
+        "top_k",
+        "response_format"
+      ],
+      "output_policy": "Uniform 512-token cap; strict JSON or one JSON fence; wrong finite numbers retained; no correctness-based retry.",
+      "returned_model_allowlist": [
+        "openai/gpt-6-luna"
+      ],
+      "returned_provider_allowlist": [
+        "OpenAI"
+      ],
+      "returned_identity_status": "Strict candidate allowlist, not a claim of newly observed response. Compatibility must pass before science; retain any mismatch.",
+      "catalog_reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default_effort": "medium"
+      },
+      "endpoint_supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "seed",
+        "max_tokens",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "verbosity",
+        "reasoning_effort"
+      ],
+      "endpoint_pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000005",
+        "web_search": "0.01",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0.000000125",
+        "discount": 0,
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.0000002",
+            "completion": "0.00000075",
+            "input_cache_read": "0.00000002",
+            "input_cache_write": "0.00000025"
+          }
+        ]
+      },
+      "quantization": "unknown",
+      "reservation_usd_per_token": {
+        "input": "0.000000125",
+        "output": "0.0000005"
+      },
+      "public_metadata_path": "public_endpoints_openai_gpt-6-luna.json",
+      "public_metadata_sha256": "3758455c89d679dea670955e19c1d2852d3ec938afe95153507263b6cd2aaec7",
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-6-luna"
+      ],
+      "notes": "User-specified Luna none only. Prior cumulative accounting includes all previous known charges and unresolved reserves.",
+      "model": "openai/gpt-6-luna",
+      "allowed_models": [
+        "openai/gpt-6-luna"
+      ],
+      "input_bound": "0.000000125",
+      "output_bound": "0.0000005",
+      "provider_ignore": [
+        "amazon-bedrock/us-east-1",
+        "azure",
+        "azure/eu",
+        "azure/us",
+        "openai/fast",
+        "openai/flex"
+      ],
+      "temperature": null
+    }
+  ]
+}

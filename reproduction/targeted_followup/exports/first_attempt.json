@@ -1,0 +1,6864 @@
+{
+  "planned": 5632,
+  "valid": 5630,
+  "primary": [
+    {
+      "name": "core_s4_table",
+      "planned_blocks": 128,
+      "complete_blocks": 128,
+      "missing_point_bounds": [
+        0.171875,
+        0.171875
+      ],
+      "support_width": 2,
+      "estimate": 0.171875,
+      "approx_ci": [
+        -0.0033864945213421815,
+        0.3471364945213422
+      ],
+      "hoeffding_ci": [
+        -0.12834161439580205,
+        0.47209161439580205
+      ],
+      "adversarial_hoeffding_ci": [
+        -0.12834161439580205,
+        0.47209161439580205
+      ],
+      "df": 120.58651992703936,
+      "conditional_on_complete_blocks": false
+    },
+    {
+      "name": "core_s4_prose",
+      "planned_blocks": 128,
+      "complete_blocks": 128,
+      "missing_point_bounds": [
+        0.078125,
+        0.078125
+      ],
+      "support_width": 2,
+      "estimate": 0.078125,
+      "approx_ci": [
+        -0.0940860780242457,
+        0.25033607802424573
+      ],
+      "hoeffding_ci": [
+        -0.22209161439580205,
+        0.37834161439580205
+      ],
+      "adversarial_hoeffding_ci": [
+        -0.22209161439580205,
+        0.37834161439580205
+      ],
+      "df": 123.24482798442044,
+      "conditional_on_complete_blocks": false
+    },
+    {
+      "name": "core_s6_table",
+      "planned_blocks": 128,
+      "complete_blocks": 128,
+      "missing_point_bounds": [
+        0.046875,
+        0.046875
+      ],
+      "support_width": 2,
+      "estimate": 0.046875,
+      "approx_ci": [
+        -0.1253847561937619,
+        0.2191347561937619
+      ],
+      "hoeffding_ci": [
+        -0.25334161439580205,
+        0.34709161439580205
+      ],
+      "adversarial_hoeffding_ci": [
+        -0.25334161439580205,
+        0.34709161439580205
+      ],
+      "df": 121.2809658310209,
+      "conditional_on_complete_blocks": false
+    },
+    {
+      "name": "core_s6_prose",
+      "planned_blocks": 128,
+      "complete_blocks": 128,
+      "missing_point_bounds": [
+        0.1171875,
+        0.1171875
+      ],
+      "support_width": 2,
+      "estimate": 0.1171875,
+      "approx_ci": [
+        -0.04206862111127463,
+        0.27644362111127463
+      ],
+      "hoeffding_ci": [
+        -0.18302911439580205,
+        0.41740411439580205
+      ],
+      "adversarial_hoeffding_ci": [
+        -0.18302911439580205,
+        0.41740411439580205
+      ],
+      "df": 116.75230531283316,
+      "conditional_on_complete_blocks": false
+    },
+    {
+      "name": "partner_minus_device_protocol_effect",
+      "planned_blocks": 128,
+      "complete_blocks": 127,
+      "missing_point_bounds": [
+        0.029296875,
+        0.03125
+      ],
+      "support_width": 4,
+      "estimate": 0.025264616935483875,
+      "approx_ci": [
+        -0.06692458546512196,
+        0.11745381933608971
+      ],
+      "hoeffding_ci": [
+        -0.5775848519154572,
+        0.6281140857864249
+      ],
+      "adversarial_hoeffding_ci": [
+        -0.5711363537916041,
+        0.6316832287916041
+      ],
+      "df": 121.29861143411053,
+      "conditional_on_complete_blocks": true
+    },
+    {
+      "name": "explicit_own_minus_original_protocol_effect",
+      "planned_blocks": 64,
+      "complete_blocks": 64,
+      "missing_point_bounds": [
+        -0.01171875,
+        -0.01171875
+      ],
+      "support_width": 4,
+      "estimate": -0.01171875,
+      "approx_ci": [
+        -0.1895506313652034,
+        0.1661131313652034
+      ],
+      "hoeffding_ci": [
+        -0.860859565456554,
+        0.837422065456554
+      ],
+      "adversarial_hoeffding_ci": [
+        -0.860859565456554,
+        0.837422065456554
+      ],
+      "df": 62.99999999999999,
+      "conditional_on_complete_blocks": false
+    },
+    {
+      "name": "lottery_minus_full_payoff_accuracy",
+      "planned_blocks": 32,
+      "complete_blocks": 31,
+      "missing_point_bounds": [
+        0.69140625,
+        0.693359375
+      ],
+      "support_width": 2,
+      "estimate": 0.6975446428571428,
+      "approx_ci": [
+        0.656203628520484,
+        0.7388856571938016
+      ],
+      "hoeffding_ci": [
+        0.0864834521850637,
+        1.0
+      ],
+      "adversarial_hoeffding_ci": [
+        0.0909730212083959,
+        1.0
+      ],
+      "df": 24.236790975216636,
+      "conditional_on_complete_blocks": true
+    },
+    {
+      "name": "full_S_minus_R_payoff_accuracy",
+      "planned_blocks": 32,
+      "complete_blocks": 31,
+      "missing_point_bounds": [
+        0.02734375,
+        0.03125
+      ],
+      "support_width": 2,
+      "estimate": 0.024553571428571428,
+      "approx_ci": [
+        -0.049760634430725245,
+        0.0988677772878681
+      ],
+      "hoeffding_ci": [
+        -0.5865076192435077,
+        0.6356147621006505
+      ],
+      "adversarial_hoeffding_ci": [
+        -0.5730894787916041,
+        0.6316832287916041
+      ],
+      "df": 18.190099316405757,
+      "conditional_on_complete_blocks": true
+    }
+  ],
+  "cells": [
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        4,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.1015625,
+      "correct": 0.1015625,
+      "regret": 0.8984375
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        4,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 127,
+      "join": 0.14173228346456693,
+      "correct": 0.14173228346456693,
+      "regret": 0.8582677165354331
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        6,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.0859375,
+      "correct": 0.9140625,
+      "regret": 0.0859375
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        6,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.09375,
+      "correct": 0.90625,
+      "regret": 0.09375
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        4,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.3359375,
+      "correct": 0.3359375,
+      "regret": 0.6640625
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        4,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.265625,
+      "correct": 0.265625,
+      "regret": 0.734375
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        6,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.1953125,
+      "correct": 0.8046875,
+      "regret": 0.1953125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        6,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.2109375,
+      "correct": 0.7890625,
+      "regret": 0.2109375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        4,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.4765625,
+      "correct": 0.4765625,
+      "regret": 0.5234375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        4,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.46875,
+      "correct": 0.46875,
+      "regret": 0.53125
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        6,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.34375,
+      "correct": 0.65625,
+      "regret": 0.34375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        6,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.453125,
+      "correct": 0.546875,
+      "regret": 0.453125
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        4,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.5546875,
+      "correct": 0.5546875,
+      "regret": 0.4453125
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        4,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.640625,
+      "correct": 0.640625,
+      "regret": 0.359375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        6,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.4609375,
+      "correct": 0.5390625,
+      "regret": 0.4609375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        6,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        4,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.109375,
+      "correct": 0.109375,
+      "regret": 0.890625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        4,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.203125,
+      "correct": 0.203125,
+      "regret": 0.796875
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        6,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.09375,
+      "correct": 0.90625,
+      "regret": 0.09375
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        6,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.0859375,
+      "correct": 0.9140625,
+      "regret": 0.0859375
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        4,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.3515625,
+      "correct": 0.3515625,
+      "regret": 0.6484375
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        4,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.359375,
+      "correct": 0.359375,
+      "regret": 0.640625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        6,
+        "prose"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.2421875,
+      "correct": 0.7578125,
+      "regret": 0.2421875
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        6,
+        "table"
+      ],
+      "planned": 128,
+      "valid": 128,
+      "join": 0.2421875,
+      "correct": 0.7578125,
+      "regret": 0.2421875
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_R",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.53125,
+      "correct": 0.53125,
+      "regret": 0.46875
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_R",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.46875,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_S",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.375
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_S",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.5625,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "lottery",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.9375,
+      "correct": 0.9375,
+      "regret": 0.0625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "lottery",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_R",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.28125,
+      "correct": 0.71875,
+      "regret": 0.28125
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_R",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.46875,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_S",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.53125,
+      "correct": 0.46875,
+      "regret": 0.53125
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_S",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.65625,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "lottery",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.6875,
+      "correct": 0.3125,
+      "regret": 0.6875
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "lottery",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_R",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.53125,
+      "correct": 0.46875,
+      "regret": 0.3187499999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_R",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.375,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_S",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.5625,
+      "correct": 0.4375,
+      "regret": 0.3374999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_S",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.375,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "lottery",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.34375,
+      "correct": 0.65625,
+      "regret": 0.20624999999999993
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "lottery",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_R",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5999999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_R",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_S",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.4499999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_S",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.03125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "lottery",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.6875,
+      "correct": 0.6875,
+      "regret": 0.3749999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "lottery",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_R",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.84375,
+      "correct": 0.15625,
+      "regret": 0.6750000000000002
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_R",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.09375,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_S",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.46875,
+      "correct": 0.53125,
+      "regret": 0.3750000000000001
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_S",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "lottery",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.8125,
+      "correct": 0.1875,
+      "regret": 0.6500000000000001
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "lottery",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_R",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.84375,
+      "correct": 0.84375,
+      "regret": 0.1250000000000001
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_R",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.34375,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_S",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.65625,
+      "correct": 0.65625,
+      "regret": 0.27500000000000024
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_S",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.375,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "lottery",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.96875,
+      "correct": 0.96875,
+      "regret": 0.025000000000000022
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "lottery",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_R",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.5625,
+      "correct": 0.4375,
+      "regret": 0.5625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_R",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.40625,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_S",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_S",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.40625,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "lottery",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.6875,
+      "correct": 0.3125,
+      "regret": 0.6875
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "lottery",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_R",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.65625,
+      "correct": 0.65625,
+      "regret": 0.6875
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_R",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 0.1875,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_S",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.65625,
+      "correct": 0.65625,
+      "regret": 0.6875
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_S",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 31,
+      "join": null,
+      "correct": 0.03225806451612903,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "lottery",
+        "action"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.96875,
+      "correct": 0.96875,
+      "regret": 0.0625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "lottery",
+        "payoffs"
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "R",
+        4,
+        "prose"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.25,
+      "correct": 0.25,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "R",
+        4,
+        "table"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.265625,
+      "correct": 0.265625,
+      "regret": 0.734375
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "R",
+        6,
+        "prose"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.3125,
+      "correct": 0.6875,
+      "regret": 0.3125
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "R",
+        6,
+        "table"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.375
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "S",
+        4,
+        "prose"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 2.0
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "S",
+        4,
+        "table"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.53125,
+      "correct": 0.46875,
+      "regret": 2.125
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "S",
+        6,
+        "prose"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.421875,
+      "correct": 0.578125,
+      "regret": 2.53125
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "S",
+        6,
+        "table"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 3.75
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "R",
+        4,
+        "prose"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.421875,
+      "correct": 0.421875,
+      "regret": 0.578125
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "R",
+        4,
+        "table"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.40625,
+      "correct": 0.40625,
+      "regret": 0.59375
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "R",
+        6,
+        "prose"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.421875,
+      "correct": 0.578125,
+      "regret": 0.421875
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "R",
+        6,
+        "table"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.359375,
+      "correct": 0.640625,
+      "regret": 0.359375
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "S",
+        4,
+        "prose"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 2.5
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "S",
+        4,
+        "table"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 2.5
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "S",
+        6,
+        "prose"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.734375,
+      "correct": 0.265625,
+      "regret": 4.40625
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "S",
+        6,
+        "table"
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.546875,
+      "correct": 0.453125,
+      "regret": 3.28125
+    }
+  ],
+  "wording_cells": [
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        4,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.09375,
+      "correct": 0.09375,
+      "regret": 0.90625
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        4,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.125,
+      "correct": 0.125,
+      "regret": 0.875
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        4,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.15625,
+      "correct": 0.15625,
+      "regret": 0.84375
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        4,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.03125,
+      "correct": 0.03125,
+      "regret": 0.96875
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        4,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 31,
+      "join": 0.1935483870967742,
+      "correct": 0.1935483870967742,
+      "regret": 0.8064516129032258
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        4,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.0625,
+      "correct": 0.0625,
+      "regret": 0.9375
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        4,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.1875,
+      "correct": 0.1875,
+      "regret": 0.8125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        4,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.125,
+      "correct": 0.125,
+      "regret": 0.875
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        6,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.0625,
+      "correct": 0.9375,
+      "regret": 0.0625
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        6,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.09375,
+      "correct": 0.90625,
+      "regret": 0.09375
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        6,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.125,
+      "correct": 0.875,
+      "regret": 0.125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        6,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.0625,
+      "correct": 0.9375,
+      "regret": 0.0625
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        6,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.03125,
+      "correct": 0.96875,
+      "regret": 0.03125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        6,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.125,
+      "correct": 0.875,
+      "regret": 0.125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        6,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.125,
+      "correct": 0.875,
+      "regret": 0.125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "R",
+        6,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.09375,
+      "correct": 0.90625,
+      "regret": 0.09375
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        4,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.34375,
+      "correct": 0.34375,
+      "regret": 0.65625
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        4,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.1875,
+      "correct": 0.1875,
+      "regret": 0.8125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        4,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.46875,
+      "correct": 0.46875,
+      "regret": 0.53125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        4,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.34375,
+      "correct": 0.34375,
+      "regret": 0.65625
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        4,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.21875,
+      "correct": 0.21875,
+      "regret": 0.78125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        4,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.21875,
+      "correct": 0.21875,
+      "regret": 0.78125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        4,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.34375,
+      "correct": 0.34375,
+      "regret": 0.65625
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        4,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.28125,
+      "correct": 0.28125,
+      "regret": 0.71875
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        6,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.25
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        6,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.1875,
+      "correct": 0.8125,
+      "regret": 0.1875
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        6,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.21875,
+      "correct": 0.78125,
+      "regret": 0.21875
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        6,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.125,
+      "correct": 0.875,
+      "regret": 0.125
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        6,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.1875,
+      "correct": 0.8125,
+      "regret": 0.1875
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        6,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.21875,
+      "correct": 0.78125,
+      "regret": 0.21875
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        6,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.21875,
+      "correct": 0.78125,
+      "regret": 0.21875
+    },
+    {
+      "cell": [
+        "framing",
+        "device",
+        "S",
+        6,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.21875,
+      "correct": 0.78125,
+      "regret": 0.21875
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        4,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        4,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.25,
+      "correct": 0.25,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        4,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        4,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.53125,
+      "correct": 0.53125,
+      "regret": 0.46875
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        4,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.71875,
+      "correct": 0.71875,
+      "regret": 0.28125
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        4,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.34375,
+      "correct": 0.34375,
+      "regret": 0.65625
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        4,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.53125,
+      "correct": 0.53125,
+      "regret": 0.46875
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        4,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.28125,
+      "correct": 0.28125,
+      "regret": 0.71875
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        6,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.34375,
+      "correct": 0.65625,
+      "regret": 0.34375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        6,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.125,
+      "correct": 0.875,
+      "regret": 0.125
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        6,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.59375,
+      "correct": 0.40625,
+      "regret": 0.59375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        6,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.3125,
+      "correct": 0.6875,
+      "regret": 0.3125
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        6,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        6,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        6,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "R",
+        6,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.3125,
+      "correct": 0.6875,
+      "regret": 0.3125
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        4,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.65625,
+      "correct": 0.65625,
+      "regret": 0.34375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        4,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.34375,
+      "correct": 0.34375,
+      "regret": 0.65625
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        4,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        4,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.59375,
+      "correct": 0.59375,
+      "regret": 0.40625
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        4,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.71875,
+      "correct": 0.71875,
+      "regret": 0.28125
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        4,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.5625,
+      "correct": 0.5625,
+      "regret": 0.4375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        4,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.78125,
+      "correct": 0.78125,
+      "regret": 0.21875
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        4,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        6,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.3125,
+      "correct": 0.6875,
+      "regret": 0.3125
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        6,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.21875,
+      "correct": 0.78125,
+      "regret": 0.21875
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        6,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.75,
+      "correct": 0.25,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        6,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.5625,
+      "correct": 0.4375,
+      "regret": 0.5625
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        6,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.46875,
+      "correct": 0.53125,
+      "regret": 0.46875
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        6,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.375
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        6,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.65625,
+      "correct": 0.34375,
+      "regret": 0.65625
+    },
+    {
+      "cell": [
+        "framing",
+        "original",
+        "S",
+        6,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        4,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.15625,
+      "correct": 0.15625,
+      "regret": 0.84375
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        4,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.09375,
+      "correct": 0.09375,
+      "regret": 0.90625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        4,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.125,
+      "correct": 0.125,
+      "regret": 0.875
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        4,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.0625,
+      "correct": 0.0625,
+      "regret": 0.9375
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        4,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.21875,
+      "correct": 0.21875,
+      "regret": 0.78125
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        4,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.09375,
+      "correct": 0.09375,
+      "regret": 0.90625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        4,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.3125,
+      "correct": 0.3125,
+      "regret": 0.6875
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        4,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.1875,
+      "correct": 0.1875,
+      "regret": 0.8125
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        6,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.125,
+      "correct": 0.875,
+      "regret": 0.125
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        6,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.03125,
+      "correct": 0.96875,
+      "regret": 0.03125
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        6,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.15625,
+      "correct": 0.84375,
+      "regret": 0.15625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        6,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.0625,
+      "correct": 0.9375,
+      "regret": 0.0625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        6,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.15625,
+      "correct": 0.84375,
+      "regret": 0.15625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        6,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.0625,
+      "correct": 0.9375,
+      "regret": 0.0625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        6,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.0625,
+      "correct": 0.9375,
+      "regret": 0.0625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "R",
+        6,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.0625,
+      "correct": 0.9375,
+      "regret": 0.0625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        4,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.3125,
+      "correct": 0.3125,
+      "regret": 0.6875
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        4,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.46875,
+      "correct": 0.46875,
+      "regret": 0.53125
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        4,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.28125,
+      "correct": 0.28125,
+      "regret": 0.71875
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        4,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.34375,
+      "correct": 0.34375,
+      "regret": 0.65625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        4,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.4375,
+      "correct": 0.4375,
+      "regret": 0.5625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        4,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.28125,
+      "correct": 0.28125,
+      "regret": 0.71875
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        4,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.375,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        4,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.34375,
+      "correct": 0.34375,
+      "regret": 0.65625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        6,
+        "prose",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.28125,
+      "correct": 0.71875,
+      "regret": 0.28125
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        6,
+        "prose",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.3125,
+      "correct": 0.6875,
+      "regret": 0.3125
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        6,
+        "prose",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.15625,
+      "correct": 0.84375,
+      "regret": 0.15625
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        6,
+        "prose",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.21875,
+      "correct": 0.78125,
+      "regret": 0.21875
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        6,
+        "table",
+        0
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.25
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        6,
+        "table",
+        1
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.21875,
+      "correct": 0.78125,
+      "regret": 0.21875
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        6,
+        "table",
+        2
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.25
+    },
+    {
+      "cell": [
+        "framing",
+        "partner",
+        "S",
+        6,
+        "table",
+        3
+      ],
+      "planned": 32,
+      "valid": 32,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.25
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_R",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_R",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.25,
+      "correct": 0.25,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_R",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.75,
+      "regret": 0.25
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_R",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.375
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_R",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_R",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_R",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.875,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_R",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_S",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_S",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_S",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 1.0,
+      "regret": 0.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_S",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_S",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_S",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.25,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_S",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "full_S",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "lottery",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.875,
+      "regret": 0.125
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "lottery",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 1.0,
+      "regret": 0.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "lottery",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 1.0,
+      "regret": 0.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "lottery",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.875,
+      "regret": 0.125
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "lottery",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "lottery",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "lottery",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        0,
+        "lottery",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_R",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.25
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_R",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.25
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_R",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.375
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_R",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.25
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_R",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_R",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_R",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.625,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_R",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_S",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_S",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.375
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_S",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_S",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_S",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_S",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.375,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_S",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "full_S",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.25,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "lottery",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "lottery",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "lottery",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.25,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "lottery",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.25,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "lottery",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "lottery",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "lottery",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        1,
+        "lottery",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_R",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.29999999999999993
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_R",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.14999999999999997
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_R",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 0.0,
+      "regret": 0.5999999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_R",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.22499999999999995
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_R",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.875,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_R",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.25,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_R",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.25,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_R",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_S",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.29999999999999993
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_S",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.22499999999999995
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_S",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.25,
+      "regret": 0.4499999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_S",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.3749999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_S",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.625,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_S",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_S",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.375,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "full_S",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.5,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "lottery",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.22499999999999995
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "lottery",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.22499999999999995
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "lottery",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.14999999999999997
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "lottery",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.22499999999999995
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "lottery",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "lottery",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "lottery",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        2,
+        "lottery",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_R",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.4499999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_R",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.25,
+      "correct": 0.25,
+      "regret": 0.8999999999999998
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_R",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5999999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_R",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.4499999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_R",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_R",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_R",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_R",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_S",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.375,
+      "correct": 0.375,
+      "regret": 0.7499999999999998
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_S",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.4499999999999999
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_S",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.75,
+      "regret": 0.29999999999999993
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_S",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.75,
+      "regret": 0.29999999999999993
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_S",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_S",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_S",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "full_S",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "lottery",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.375,
+      "correct": 0.375,
+      "regret": 0.7499999999999998
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "lottery",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.875,
+      "regret": 0.14999999999999997
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "lottery",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.75,
+      "regret": 0.29999999999999993
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "lottery",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.75,
+      "regret": 0.29999999999999993
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "lottery",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "lottery",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "lottery",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        3,
+        "lottery",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_R",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.125,
+      "regret": 0.7000000000000002
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_R",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 0.0,
+      "regret": 0.8000000000000003
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_R",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 0.0,
+      "regret": 0.8000000000000003
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_R",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.40000000000000013
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_R",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_R",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_R",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.25,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_R",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_S",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.5000000000000002
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_S",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.20000000000000007
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_S",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.25,
+      "regret": 0.6000000000000002
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_S",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.25,
+      "correct": 0.75,
+      "regret": 0.20000000000000007
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_S",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_S",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_S",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.375,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "full_S",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "lottery",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.25,
+      "regret": 0.6000000000000002
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "lottery",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.125,
+      "regret": 0.7000000000000002
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "lottery",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.25,
+      "regret": 0.6000000000000002
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "lottery",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.125,
+      "regret": 0.7000000000000002
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "lottery",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "lottery",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "lottery",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        4,
+        "lottery",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_R",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.875,
+      "regret": 0.10000000000000009
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_R",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 1.0,
+      "regret": 0.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_R",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.875,
+      "regret": 0.10000000000000009
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_R",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.30000000000000027
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_R",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.625,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_R",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_R",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.75,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_R",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_S",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.875,
+      "regret": 0.10000000000000009
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_S",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.30000000000000027
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_S",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.30000000000000027
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_S",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.40000000000000036
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_S",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.5,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_S",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_S",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "full_S",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "lottery",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 1.0,
+      "regret": 0.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "lottery",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 1.0,
+      "regret": 0.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "lottery",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.875,
+      "regret": 0.10000000000000009
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "lottery",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 1.0,
+      "regret": 0.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "lottery",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "lottery",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "lottery",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        5,
+        "lottery",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_R",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_R",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_R",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_R",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_R",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.75,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_R",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_R",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.875,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_R",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_S",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_S",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_S",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_S",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.25,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_S",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.375,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_S",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_S",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "full_S",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "lottery",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.25,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "lottery",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "lottery",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 0.625
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "lottery",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.25,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "lottery",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "lottery",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "lottery",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        6,
+        "lottery",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_R",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.75,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_R",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 1.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_R",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.75,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_R",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_R",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_R",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_R",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.625,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_R",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_S",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.75,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_S",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.625,
+      "correct": 0.625,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_S",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 1.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_S",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.75,
+      "correct": 0.75,
+      "regret": 0.5
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_S",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_S",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 7,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_S",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.125,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "full_S",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 0.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "lottery",
+        "action",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 0.875,
+      "correct": 0.875,
+      "regret": 0.25
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "lottery",
+        "action",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 1.0,
+      "regret": 0.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "lottery",
+        "action",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 1.0,
+      "regret": 0.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "lottery",
+        "action",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": 1.0,
+      "correct": 1.0,
+      "regret": 0.0
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "lottery",
+        "payoffs",
+        0
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "lottery",
+        "payoffs",
+        1
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "lottery",
+        "payoffs",
+        2
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "payoff_transfer",
+        7,
+        "lottery",
+        "payoffs",
+        3
+      ],
+      "planned": 8,
+      "valid": 8,
+      "join": null,
+      "correct": 1.0,
+      "regret": null
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "R",
+        4,
+        "prose",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.25,
+      "correct": 0.25,
+      "regret": 0.75
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "R",
+        4,
+        "table",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.265625,
+      "correct": 0.265625,
+      "regret": 0.734375
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "R",
+        6,
+        "prose",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.3125,
+      "correct": 0.6875,
+      "regret": 0.3125
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "R",
+        6,
+        "table",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.375,
+      "correct": 0.625,
+      "regret": 0.375
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "S",
+        4,
+        "prose",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.5,
+      "correct": 0.5,
+      "regret": 2.0
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "S",
+        4,
+        "table",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.53125,
+      "correct": 0.46875,
+      "regret": 2.125
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "S",
+        6,
+        "prose",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.421875,
+      "correct": 0.578125,
+      "regret": 2.53125
+    },
+    {
+      "cell": [
+        "referent",
+        "explicit_own",
+        "S",
+        6,
+        "table",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 3.75
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "R",
+        4,
+        "prose",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.421875,
+      "correct": 0.421875,
+      "regret": 0.578125
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "R",
+        4,
+        "table",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.40625,
+      "correct": 0.40625,
+      "regret": 0.59375
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "R",
+        6,
+        "prose",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.421875,
+      "correct": 0.578125,
+      "regret": 0.421875
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "R",
+        6,
+        "table",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.359375,
+      "correct": 0.640625,
+      "regret": 0.359375
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "S",
+        4,
+        "prose",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 2.5
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "S",
+        4,
+        "table",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.625,
+      "correct": 0.375,
+      "regret": 2.5
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "S",
+        6,
+        "prose",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.734375,
+      "correct": 0.265625,
+      "regret": 4.40625
+    },
+    {
+      "cell": [
+        "referent",
+        "original",
+        "S",
+        6,
+        "table",
+        3
+      ],
+      "planned": 64,
+      "valid": 64,
+      "join": 0.546875,
+      "correct": 0.453125,
+      "regret": 3.28125
+    }
+  ],
+  "numeric_error_patterns": [
+    {
+      "context": "full_R",
+      "recipe": 0,
+      "pattern": "prior_times_EV",
+      "count": 10
+    },
+    {
+      "context": "full_R",
+      "recipe": 0,
+      "pattern": "prior_times_success",
+      "count": 10
+    },
+    {
+      "context": "full_R",
+      "recipe": 0,
+      "pattern": "receipt_times_EV",
+      "count": 3
+    },
+    {
+      "context": "full_R",
+      "recipe": 0,
+      "pattern": "receipt_times_success",
+      "count": 3
+    },
+    {
+      "context": "full_R",
+      "recipe": 0,
+      "pattern": "reported:1",
+      "count": 7
+    },
+    {
+      "context": "full_R",
+      "recipe": 0,
+      "pattern": "reported:1.0",
+      "count": 3
+    },
+    {
+      "context": "full_R",
+      "recipe": 0,
+      "pattern": "reported:1.25",
+      "count": 4
+    },
+    {
+      "context": "full_R",
+      "recipe": 0,
+      "pattern": "reported:2.5",
+      "count": 3
+    },
+    {
+      "context": "full_R",
+      "recipe": 1,
+      "pattern": "prior_times_EV",
+      "count": 6
+    },
+    {
+      "context": "full_R",
+      "recipe": 1,
+      "pattern": "prior_times_success",
+      "count": 6
+    },
+    {
+      "context": "full_R",
+      "recipe": 1,
+      "pattern": "receipt_times_EV",
+      "count": 7
+    },
+    {
+      "context": "full_R",
+      "recipe": 1,
+      "pattern": "receipt_times_success",
+      "count": 7
+    },
+    {
+      "context": "full_R",
+      "recipe": 1,
+      "pattern": "reported:1",
+      "count": 5
+    },
+    {
+      "context": "full_R",
+      "recipe": 1,
+      "pattern": "reported:1.0",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 1,
+      "pattern": "reported:1.25",
+      "count": 4
+    },
+    {
+      "context": "full_R",
+      "recipe": 1,
+      "pattern": "reported:2.5",
+      "count": 7
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "prior_times_success",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:-0.08",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:-0.16",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:-0.32",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:-0.4",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:-0.58",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:-1.04",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:-1.72",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:-1.76",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:0.1",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:0.4",
+      "count": 4
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:0.6",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 2,
+      "pattern": "reported:0.8",
+      "count": 5
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "prior_times_success",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "receipt_times_success",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:-0.2",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:-0.32",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:-0.56",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:-0.8",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:-1.16",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:-1.64",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:0",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:0.1",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:0.16",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:0.2",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:0.4",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:1",
+      "count": 6
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:1.0",
+      "count": 8
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:1.18",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:1.3",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:1.42",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:1.6",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 3,
+      "pattern": "reported:7.8",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 4,
+      "pattern": "reported:-0.16",
+      "count": 4
+    },
+    {
+      "context": "full_R",
+      "recipe": 4,
+      "pattern": "reported:-0.64",
+      "count": 5
+    },
+    {
+      "context": "full_R",
+      "recipe": 4,
+      "pattern": "reported:-0.8",
+      "count": 3
+    },
+    {
+      "context": "full_R",
+      "recipe": 4,
+      "pattern": "reported:-1.6",
+      "count": 6
+    },
+    {
+      "context": "full_R",
+      "recipe": 4,
+      "pattern": "reported:0.8",
+      "count": 8
+    },
+    {
+      "context": "full_R",
+      "recipe": 4,
+      "pattern": "reported:4.48",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 4,
+      "pattern": "reported:5.6",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 4,
+      "pattern": "reported:8",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "prior_times_success",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-0.32",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-1.12",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-1.2",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-1.24",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-1.6",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-1.84",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-1.96",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-2.16",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-2.2",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-2.4",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-2.72",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:-2.8",
+      "count": 3
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:0.4",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:3.2",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 5,
+      "pattern": "reported:5.2",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 6,
+      "pattern": "receipt_times_success",
+      "count": 10
+    },
+    {
+      "context": "full_R",
+      "recipe": 6,
+      "pattern": "reported:-0.2",
+      "count": 4
+    },
+    {
+      "context": "full_R",
+      "recipe": 6,
+      "pattern": "reported:-1",
+      "count": 8
+    },
+    {
+      "context": "full_R",
+      "recipe": 6,
+      "pattern": "reported:-1.0",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 6,
+      "pattern": "reported:-1.4",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 6,
+      "pattern": "reported:-4",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 6,
+      "pattern": "reported:-4.6",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 6,
+      "pattern": "reported:1",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:-0.44",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:-1",
+      "count": 5
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:-1.0",
+      "count": 4
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:-1.08",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:-1.4",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:-1.56",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:-2",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:-2.8",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:-3.2",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:-3.6",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:1",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:1.6",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:15",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:3",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:3.8",
+      "count": 1
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:7",
+      "count": 2
+    },
+    {
+      "context": "full_R",
+      "recipe": 7,
+      "pattern": "reported:7.0",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 0,
+      "pattern": "prior_times_EV",
+      "count": 6
+    },
+    {
+      "context": "full_S",
+      "recipe": 0,
+      "pattern": "prior_times_success",
+      "count": 6
+    },
+    {
+      "context": "full_S",
+      "recipe": 0,
+      "pattern": "reported:1",
+      "count": 6
+    },
+    {
+      "context": "full_S",
+      "recipe": 0,
+      "pattern": "reported:1.25",
+      "count": 2
+    },
+    {
+      "context": "full_S",
+      "recipe": 0,
+      "pattern": "reported:2.5",
+      "count": 6
+    },
+    {
+      "context": "full_S",
+      "recipe": 1,
+      "pattern": "prior_times_EV",
+      "count": 8
+    },
+    {
+      "context": "full_S",
+      "recipe": 1,
+      "pattern": "prior_times_success",
+      "count": 8
+    },
+    {
+      "context": "full_S",
+      "recipe": 1,
+      "pattern": "reported:1",
+      "count": 8
+    },
+    {
+      "context": "full_S",
+      "recipe": 1,
+      "pattern": "reported:2.5",
+      "count": 3
+    },
+    {
+      "context": "full_S",
+      "recipe": 2,
+      "pattern": "prior_times_success",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 2,
+      "pattern": "reported:-0.08",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 2,
+      "pattern": "reported:-0.2",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 2,
+      "pattern": "reported:-0.56",
+      "count": 8
+    },
+    {
+      "context": "full_S",
+      "recipe": 2,
+      "pattern": "reported:-0.8",
+      "count": 2
+    },
+    {
+      "context": "full_S",
+      "recipe": 2,
+      "pattern": "reported:-1.2",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 2,
+      "pattern": "reported:-1.72",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 2,
+      "pattern": "reported:0.8",
+      "count": 4
+    },
+    {
+      "context": "full_S",
+      "recipe": 2,
+      "pattern": "reported:1.6",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 2,
+      "pattern": "reported:10.6",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "prior_times_success",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:-0.02",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:-0.2",
+      "count": 4
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:-0.56",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:-0.74",
+      "count": 2
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:-0.8",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:-0.92",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:-1.16",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:-1.4",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:0.4",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:1",
+      "count": 5
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:1.0",
+      "count": 6
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:1.3",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:1.36",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:1.9",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:4.8",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:4.9",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:5.8",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 3,
+      "pattern": "reported:7.8",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 4,
+      "pattern": "reported:-0.16",
+      "count": 6
+    },
+    {
+      "context": "full_S",
+      "recipe": 4,
+      "pattern": "reported:-0.64",
+      "count": 4
+    },
+    {
+      "context": "full_S",
+      "recipe": 4,
+      "pattern": "reported:-0.8",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 4,
+      "pattern": "reported:-1.12",
+      "count": 4
+    },
+    {
+      "context": "full_S",
+      "recipe": 4,
+      "pattern": "reported:-1.6",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 4,
+      "pattern": "reported:0.32",
+      "count": 2
+    },
+    {
+      "context": "full_S",
+      "recipe": 4,
+      "pattern": "reported:0.8",
+      "count": 6
+    },
+    {
+      "context": "full_S",
+      "recipe": 4,
+      "pattern": "reported:4.8",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 4,
+      "pattern": "reported:5.6",
+      "count": 2
+    },
+    {
+      "context": "full_S",
+      "recipe": 4,
+      "pattern": "reported:8",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:-0.56",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:-2.2",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:-2.24",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:-2.32",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:-2.56",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:-2.8",
+      "count": 7
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:-2.92",
+      "count": 2
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:-2.96",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:3.2",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:4.4",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:5.2",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:6.6",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 5,
+      "pattern": "reported:7.6",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 6,
+      "pattern": "reported:-0.2",
+      "count": 3
+    },
+    {
+      "context": "full_S",
+      "recipe": 6,
+      "pattern": "reported:-1",
+      "count": 5
+    },
+    {
+      "context": "full_S",
+      "recipe": 6,
+      "pattern": "reported:-1.0",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 6,
+      "pattern": "reported:-1.4",
+      "count": 2
+    },
+    {
+      "context": "full_S",
+      "recipe": 6,
+      "pattern": "reported:-1.8",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 6,
+      "pattern": "reported:-2",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 6,
+      "pattern": "reported:-4",
+      "count": 3
+    },
+    {
+      "context": "full_S",
+      "recipe": 6,
+      "pattern": "reported:15",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 6,
+      "pattern": "reported:7",
+      "count": 2
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "prior_times_EV",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:-0.2",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:-0.8",
+      "count": 2
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:-1",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:-1.5",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:-2.0",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:-3",
+      "count": 3
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:-3.6",
+      "count": 3
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:1",
+      "count": 9
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:1.0",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:1.8",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:15",
+      "count": 3
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:3",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:6",
+      "count": 1
+    },
+    {
+      "context": "full_S",
+      "recipe": 7,
+      "pattern": "reported:7",
+      "count": 2
+    }
+  ],
+  "manifest_sha256": "ddf7c5df0593d575722cc845f6730daabb11e2ae3c142930774fcf7eb1157dde",
+  "answer_selection": "first_attempt"
+}

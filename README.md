@@ -30,7 +30,8 @@ Agents_Sharing_Information/
 ├── reproduction/
 │   ├── original/                 Original task, choices, and comparisons
 │   ├── audits/                   Missingness, extraction, and pairing
-│   └── new_experiment/           Independent diagnostics and decision aids
+│   ├── new_experiment/           Independent diagnostics and decision aids
+│   └── targeted_followup/        Replication, framing, referents, and payoff transfer
 └── collection_history/           Historical acquisition and recovery code
 ```
 
@@ -61,9 +62,10 @@ Results go to `outputs/reproduction/`. For subsequent runs, specify a new `--out
 |---|---|---|
 | Partner policies and identical-payoff controls | [Original study](reproduction/original/README.md) | Primary-model experiment; smaller Qwen and DeepSeek replications |
 | Rule reports, payoff reports, and incremental aids | [Diagnostic plan](reproduction/new_experiment/PLAN.md) | Separate fixed allocation; GPT-6 Luna, reasoning effort `none` |
+| Replication, matched device framing, minimal referent edit, and payoff transfer | [Targeted plan](reproduction/targeted_followup/PLAN.md) | Separate fixed allocation; GPT-6 Luna, reasoning effort `none` |
 | Missingness, extraction, and independent pairing | [Audits](reproduction/audits/README.md) | Retained failures and descriptive sensitivity checks |
 
-The original study contains 44,800 selected choices; the diagnostic study contains 5,376 separate requests in 32 balanced blocks. The latter was specified after review and before collecting its responses. Seeds are not date-derived.
+The original study contains 44,800 selected choices; the diagnostic study contains 5,376 separate requests in 32 balanced blocks. The latter was specified after review and before collecting its responses. A further targeted follow-up contains 5,632 independent requests with a fixed eight-comparison family. It preserves original-template replication, a word-count-matched non-partner control, a one-clause referent edit, and explicit-probability payoff evaluation. Seeds are not date-derived.
 
 ## Paper figures
 
@@ -72,7 +74,11 @@ python figures/render_paper_figures.py
 python reproduction/new_experiment/audit_and_figures/plot_new_diagnostics.py --input reproduction/new_experiment/exports/analysis.json --output outputs/figures/diagnostics_aids
 ```
 
-These commands generate all six figures with white backgrounds and the Mediterranean palette. Exact typography requires Times New Roman; font files are not distributed. Both plotters accept `--font-dir`. See the [figure guide](figures/README.md).
+```sh
+python figures/targeted/render_targeted.py --input reproduction/targeted_followup/exports/final.json --output outputs/figures
+```
+
+The first two commands generate the original six figures; the additional command generates three targeted follow-up figures with white backgrounds and the Mediterranean palette. Exact typography requires Times New Roman; font files are not distributed. All plotters accept `--font-dir`. See the [figure guide](figures/README.md).
 
 ## Data and interpretation
 

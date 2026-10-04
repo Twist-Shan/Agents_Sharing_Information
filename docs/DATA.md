@@ -14,9 +14,13 @@ The allocation is 32 blocks × 24 task cells × 7 response conditions. All final
 
 Historical identities, routes, settings, and prices record collection conditions; they are not a live model catalogue.
 
+## Targeted follow-up
+
+`reproduction/targeted_followup/` contains the prospectively frozen 5,632-request schedule, acquisition journals, original science code, all final and first-attempt exports, and an independent scoring check. The three allocations are 3,072 framing/core-replication requests, 1,024 minimal-referent requests, and 1,536 explicit-probability payoff-transfer requests. Action and payoff reports are separate calls. Valid wrong answers are retained.
+
 ## Integrity and exclusions
 
-`reproduction/PACKAGE_SHA256.json` verifies 106 scientific files. Git line-ending conversion is disabled to preserve the frozen bytes. Figure inputs contain plotted metadata; figure adaptations and historical code hashes have their own provenance files.
+`reproduction/PACKAGE_SHA256.json` verifies the original 106 scientific files and the added targeted-follow-up archive. Git line-ending conversion is disabled to preserve the frozen bytes. Figure inputs contain plotted metadata; figure adaptations and historical code hashes have their own provenance files.
 
 API keys, account preflight responses, browser state, font binaries, virtual environments, unrelated drafts, the manuscript, and the excluded Sonnet cohort are absent. Generated verification and plotting outputs are ignored by Git.
 

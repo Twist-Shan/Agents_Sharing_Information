@@ -11,6 +11,8 @@ The entry point checks all archived hashes, copies the package to a new output d
 | audits | `reproduce_audits.py` | First-attempt bounds, pairing baseline, and extraction replay |
 | new_experiment | `export_results.py` | Terminal journal, selected answers, and condition results |
 | new_experiment | `audit_and_figures/independent_result_audit.py` | Independent scoring, intervals, settings, and accounting |
+| targeted_followup | `analysis.py` | Terminal journal, all eight planned estimates, first/final missing bounds and cell summaries |
+| targeted_followup | `audit_independent.py` | Separate response parsing, payoff scoring, cell means and primary estimates |
 
 Commands run inside the copied component directories. Full arguments are visible in `scripts/reproduce.py`. Existing output directories are not overwritten: use `--output outputs/second_run` to repeat. Successful completion writes `PASSED.json`; intermediate exports remain in that output directory. User-site packages are disabled and network connections are blocked in child analyses. No collection entry point runs.
 

@@ -22,6 +22,9 @@ def main():
         ('audits',['reproduce_audits.py']),
         ('new_experiment',['export_results.py','--run','run_v2','--output',str(out/'new_exports')]),
         ('new_experiment',['audit_and_figures/independent_result_audit.py','--experiment',str(work/'new_experiment'),'--output',str(out/'independent_audit.json')]),
+        ('targeted_followup',['original_regret.py','--input','../original/request_block_map.csv','--output',str(out/'original_regret.json')]),
+        ('targeted_followup',['analysis.py','--run','run','--output',str(out/'targeted_exports')]),
+        ('targeted_followup',['audit_independent.py','--run','run','--exports',str(out/'targeted_exports')]),
     ]
     for folder,args in steps:
         print('Running:',folder,*args,flush=True)
