@@ -1,0 +1,192 @@
+{
+  "status": "passed",
+  "logical_choices": 44800,
+  "paired_block_contributions": 14720,
+  "contrasts_checked": 36,
+  "all_36_points_standard_errors_degrees_of_freedom_and_intervals_match": true,
+  "floating_point_tolerance": 2e-10,
+  "inferential_scope": "The original four fixed wordings and accepted-response acquisition policies; this check verifies arithmetic, not those assumptions.",
+  "api_calls": 0,
+  "checks": [
+    {
+      "model_key": "deepseek",
+      "contrast": "card_minus_full_accuracy",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "card_minus_full_payoff_sensitivity_at_half",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "minimal_minus_full_accuracy",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "delta_prose_safe4",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "delta_prose_safe6",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "delta_table_safe4",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "delta_table_safe6",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "phi",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "tau_prose",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "tau_table",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "complement_safe4",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "deepseek",
+      "contrast": "responsive_safe6",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "card_minus_full_accuracy",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "card_minus_full_payoff_sensitivity_at_half",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "minimal_minus_full_accuracy",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "delta_prose_safe4",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "delta_prose_safe6",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "delta_table_safe4",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "delta_table_safe6",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "phi",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "tau_prose",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "tau_table",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "complement_safe4",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "luna",
+      "contrast": "responsive_safe6",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "card_minus_full_accuracy",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "card_minus_full_payoff_sensitivity_at_half",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "minimal_minus_full_accuracy",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "delta_prose_safe4",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "delta_prose_safe6",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "delta_table_safe4",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "delta_table_safe6",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "phi",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "tau_prose",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "tau_table",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "complement_safe4",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    },
+    {
+      "model_key": "qwen",
+      "contrast": "responsive_safe6",
+      "matched_stored_point_and_paired_variance_and_both_intervals": true
+    }
+  ]
+}

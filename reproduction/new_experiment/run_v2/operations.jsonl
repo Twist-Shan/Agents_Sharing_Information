@@ -1,0 +1,2 @@
+{"event":"operational_pause","model_key":"luna","pause":1,"seconds":60,"settled_count":1169,"trigger":{"attempt_id":"b17-responsive-S-s6-table-D3|try1","consecutive":5,"window_failures":5,"window_size":50},"until_unix":1791102909.1186328,"utc":"2026-10-04T08:34:09.118632+00:00"}
+{"event":"operational_pause_completed","pause":1,"settled_count":1169,"utc":"2026-10-04T08:35:10.327955+00:00"}

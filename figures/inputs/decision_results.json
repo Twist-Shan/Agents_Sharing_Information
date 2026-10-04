@@ -1,0 +1,248 @@
+{
+  "figure_kind": "terminal_empirical_estimates",
+  "main_models": [
+    "luna",
+    "qwen",
+    "deepseek"
+  ],
+  "empirical_traces": [
+    {
+      "model": "luna",
+      "contrast": "responsive_safe6",
+      "family": "value_family_2",
+      "point": 0.306640625,
+      "approximate_simultaneous_95_ci": [
+        0.26271966992794105,
+        0.35056158007205895
+      ],
+      "n_blocks": 512,
+      "family_size": 2
+    },
+    {
+      "model": "luna",
+      "contrast": "complement_safe4",
+      "family": "value_family_2",
+      "point": -0.0634765625,
+      "approximate_simultaneous_95_ci": [
+        -0.10907273751293811,
+        -0.017880387487061895
+      ],
+      "n_blocks": 512,
+      "family_size": 2
+    },
+    {
+      "model": "qwen",
+      "contrast": "responsive_safe6",
+      "family": "value_family_2",
+      "point": 0.5390625,
+      "approximate_simultaneous_95_ci": [
+        0.4487068060324443,
+        0.6294181939675557
+      ],
+      "n_blocks": 64,
+      "family_size": 2
+    },
+    {
+      "model": "qwen",
+      "contrast": "complement_safe4",
+      "family": "value_family_2",
+      "point": 0.171875,
+      "approximate_simultaneous_95_ci": [
+        0.07034429391646924,
+        0.27340570608353076
+      ],
+      "n_blocks": 64,
+      "family_size": 2
+    },
+    {
+      "model": "deepseek",
+      "contrast": "responsive_safe6",
+      "family": "value_family_2",
+      "point": 0.5703125,
+      "approximate_simultaneous_95_ci": [
+        0.43247066715678717,
+        0.7081543328432128
+      ],
+      "n_blocks": 64,
+      "family_size": 2
+    },
+    {
+      "model": "deepseek",
+      "contrast": "complement_safe4",
+      "family": "value_family_2",
+      "point": -0.390625,
+      "approximate_simultaneous_95_ci": [
+        -0.5436428637010502,
+        -0.23760713629894986
+      ],
+      "n_blocks": 64,
+      "family_size": 2
+    },
+    {
+      "model": "luna",
+      "contrast": "delta_table_safe4",
+      "family": "primary_family_7",
+      "point": 0.08203125,
+      "approximate_simultaneous_95_ci": [
+        0.04200129219999979,
+        0.12206120780000021
+      ],
+      "n_blocks": 2048,
+      "family_size": 7
+    },
+    {
+      "model": "luna",
+      "contrast": "delta_table_safe6",
+      "family": "primary_family_7",
+      "point": 0.0380859375,
+      "approximate_simultaneous_95_ci": [
+        -0.0025251608803461972,
+        0.0786970358803462
+      ],
+      "n_blocks": 2048,
+      "family_size": 7
+    },
+    {
+      "model": "luna",
+      "contrast": "delta_prose_safe4",
+      "family": "primary_family_7",
+      "point": 0.1142578125,
+      "approximate_simultaneous_95_ci": [
+        0.07503249113433658,
+        0.15348313386566342
+      ],
+      "n_blocks": 2048,
+      "family_size": 7
+    },
+    {
+      "model": "luna",
+      "contrast": "delta_prose_safe6",
+      "family": "primary_family_7",
+      "point": 0.1220703125,
+      "approximate_simultaneous_95_ci": [
+        0.08332005342816448,
+        0.16082057157183552
+      ],
+      "n_blocks": 2048,
+      "family_size": 7
+    },
+    {
+      "model": "qwen",
+      "contrast": "delta_table_safe4",
+      "family": "primary_family_7",
+      "point": 0.1015625,
+      "approximate_simultaneous_95_ci": [
+        0.006604257565669985,
+        0.19652074243433001
+      ],
+      "n_blocks": 128,
+      "family_size": 7
+    },
+    {
+      "model": "qwen",
+      "contrast": "delta_table_safe6",
+      "family": "primary_family_7",
+      "point": 0.09375,
+      "approximate_simultaneous_95_ci": [
+        0.006196169600313009,
+        0.181303830399687
+      ],
+      "n_blocks": 128,
+      "family_size": 7
+    },
+    {
+      "model": "qwen",
+      "contrast": "delta_prose_safe4",
+      "family": "primary_family_7",
+      "point": 0.140625,
+      "approximate_simultaneous_95_ci": [
+        0.03706060686034436,
+        0.24418939313965565
+      ],
+      "n_blocks": 128,
+      "family_size": 7
+    },
+    {
+      "model": "qwen",
+      "contrast": "delta_prose_safe6",
+      "family": "primary_family_7",
+      "point": 0.1796875,
+      "approximate_simultaneous_95_ci": [
+        0.08209339327406548,
+        0.2772816067259345
+      ],
+      "n_blocks": 128,
+      "family_size": 7
+    },
+    {
+      "model": "deepseek",
+      "contrast": "delta_table_safe4",
+      "family": "primary_family_7",
+      "point": 0.0703125,
+      "approximate_simultaneous_95_ci": [
+        -0.07590475071940359,
+        0.21652975071940359
+      ],
+      "n_blocks": 128,
+      "family_size": 7
+    },
+    {
+      "model": "deepseek",
+      "contrast": "delta_table_safe6",
+      "family": "primary_family_7",
+      "point": 0.0078125,
+      "approximate_simultaneous_95_ci": [
+        -0.130331092076841,
+        0.145956092076841
+      ],
+      "n_blocks": 128,
+      "family_size": 7
+    },
+    {
+      "model": "deepseek",
+      "contrast": "delta_prose_safe4",
+      "family": "primary_family_7",
+      "point": 0.0,
+      "approximate_simultaneous_95_ci": [
+        -0.17234055746969437,
+        0.17234055746969437
+      ],
+      "n_blocks": 128,
+      "family_size": 7
+    },
+    {
+      "model": "deepseek",
+      "contrast": "delta_prose_safe6",
+      "family": "primary_family_7",
+      "point": 0.046875,
+      "approximate_simultaneous_95_ci": [
+        -0.11703973069577547,
+        0.21078973069577547
+      ],
+      "n_blocks": 128,
+      "family_size": 7
+    }
+  ],
+  "policy_colors": {
+    "responsive": "#4FA58A",
+    "independent": "#2F88B8",
+    "complement": "#E57D3F"
+  },
+  "all_main_signed_and_independent_contrasts": true,
+  "shared_x_limits_by_row": [
+    [
+      -80,
+      80
+    ],
+    [
+      -25,
+      30
+    ]
+  ],
+  "no_new_inference": true,
+  "synthetic_fixture": false,
+  "execution_manifest_sha256": "47572d9c0eb5427b1aaf031d5156595944b0730dd5fbd6a9fd4399ec1d38e9bc",
+  "scientific_manifest_sha256": "7bf2f7c71460689f6a67939967635857a738357fe06e634c44aab31daaeeee77",
+  "minimum_body_font_points": 9,
+  "caption": "Receipt effects under stated partner policies, with all three model interfaces shown on shared row scales. A reports both signed contrasts (responsive at SAFE=6 and complement at SAFE=4). B reports all four identical-lottery contrasts per interface; row labels identify table/prose presentation and SAFE payoff. Points and whiskers are paired estimates and approximate family-adjusted 95% difference intervals: two contrasts per interface in A and seven in B. Shading marks \u00b15 percentage points, not a joint equivalence verdict. Planned blocks: A,512/64/64; B,2048/128/128 for Luna/Qwen/DeepSeek. The complete tables retain conservative enclosures; no between-interface test is implied."
+}

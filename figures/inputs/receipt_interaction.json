@@ -1,0 +1,117 @@
+{
+  "question": "Does the representation-dependent receipt effect transfer?",
+  "historical_no_ci": true,
+  "estimates_and_denominators": [
+    {
+      "study": "Discovery",
+      "encoding": "table",
+      "R": {
+        "range": [
+          0.109375,
+          0.109375
+        ],
+        "n": 512
+      },
+      "S": {
+        "range": [
+          0.3515625,
+          0.3515625
+        ],
+        "n": 512
+      }
+    },
+    {
+      "study": "Discovery",
+      "encoding": "prose",
+      "R": {
+        "range": [
+          0.259765625,
+          0.259765625
+        ],
+        "n": 512
+      },
+      "S": {
+        "range": [
+          0.19140625,
+          0.19140625
+        ],
+        "n": 512
+      }
+    },
+    {
+      "study": "Validation",
+      "encoding": "table",
+      "R": {
+        "n": 1024,
+        "range": [
+          0.0283203125,
+          0.0283203125
+        ]
+      },
+      "S": {
+        "n": 1024,
+        "range": [
+          0.1357421875,
+          0.1357421875
+        ]
+      }
+    },
+    {
+      "study": "Validation",
+      "encoding": "prose",
+      "R": {
+        "n": 1024,
+        "range": [
+          0.021484375,
+          0.021484375
+        ]
+      },
+      "S": {
+        "n": 1024,
+        "range": [
+          0.2119140625,
+          0.2119140625
+        ]
+      }
+    },
+    {
+      "contrast": "tau_table",
+      "y": 2,
+      "point": 0.107421875,
+      "bounds": [
+        0.07575520046632445,
+        0.13908854953367555
+      ],
+      "interval_type": "approximate family-adjusted 95% interval",
+      "n_blocks": 1024
+    },
+    {
+      "contrast": "tau_prose",
+      "y": 1,
+      "point": 0.1904296875,
+      "bounds": [
+        0.15564650271276176,
+        0.22521287228723824
+      ],
+      "interval_type": "approximate family-adjusted 95% interval",
+      "n_blocks": 1024
+    },
+    {
+      "contrast": "phi",
+      "y": 0,
+      "point": -0.0830078125,
+      "bounds": [
+        -0.13035301617145512,
+        -0.0356626088285449
+      ],
+      "interval_type": "approximate family-adjusted 95% interval",
+      "n_blocks": 1024
+    }
+  ],
+  "no_marginal_ci_invented": true,
+  "display_offset_for_unresolved_rates": {
+    "table": -0.045,
+    "prose": 0.045
+  },
+  "historical_source_sha256": "8fd48a557f4783ad6e84db6b3a1ac1b15da1670d3c1c5d81ebfce84865d631cc"
+}

@@ -1,0 +1,35 @@
+{
+  "terminal_state": "complete",
+  "terminal_reason": null,
+  "planned": 5376,
+  "first_started_attempt_valid": 5357,
+  "final_valid": 5376,
+  "unresolved": 0,
+  "physical_started": 5396,
+  "physical_settled": 5396,
+  "compatibility_starts": 1,
+  "scientific_starts": 5395,
+  "interrupted_started_attempts": 16,
+  "interruption_interpretation": "Interrupted starts have no recorded response; these are operational missingness, not model refusals or incorrect answers. See IO_RECOVERY.md for any independently documented pre-dispatch event.",
+  "prior_occupied_usd": "43.36383745918",
+  "known_new_cost_usd": "0.3028449",
+  "unknown_new_reserved_usd": "0.01597537500",
+  "cumulative_occupied_usd": "43.68265773418",
+  "cumulative_cap_usd": "50",
+  "budget_remaining_usd": "6.31734226582",
+  "failure_counts": {
+    "interrupted_unknown": 16,
+    "transport": 3
+  },
+  "accepted_attempt_counts": {
+    "1": 5357,
+    "2": 19
+  },
+  "returned_models": [
+    "openai/gpt-6-luna"
+  ],
+  "returned_providers": [
+    "OpenAI"
+  ],
+  "replay_checks": "Source/request hashes, status counts, every settled classification, both ledger sums and terminal journal hashes agree."
+}

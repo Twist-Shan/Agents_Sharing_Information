@@ -1,0 +1,369 @@
+{
+  "researcher_system_prompt": null,
+  "note": "Only a user message was submitted. Provider-side hidden prompts are not observable.",
+  "profiles": {
+    "luna": {
+      "allowed_models": [
+        "openai/gpt-6-luna"
+      ],
+      "api_url": "https://openrouter.ai/api/v1/chat/completions",
+      "catalog_reasoning": {
+        "default_effort": "medium",
+        "default_enabled": true,
+        "mandatory": false,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ]
+      },
+      "endpoint_model_identifier": "openai/gpt-6-luna-20260922",
+      "endpoint_name": "OpenAI | openai/gpt-6-luna-20260922",
+      "endpoint_pricing": {
+        "completion": "0.0000005",
+        "discount": 0,
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0.000000125",
+        "overrides": [
+          {
+            "completion": "0.00000075",
+            "input_cache_read": "0.00000002",
+            "input_cache_write": "0.00000025",
+            "min_prompt_tokens": 272000,
+            "prompt": "0.0000002"
+          }
+        ],
+        "prompt": "0.0000001",
+        "web_search": "0.01"
+      },
+      "endpoint_supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "seed",
+        "max_tokens",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "verbosity",
+        "reasoning_effort"
+      ],
+      "input_bound": "0.000000125",
+      "key": "luna",
+      "max_prompt_bound": 5004,
+      "model": "openai/gpt-6-luna",
+      "model_id": "openai/gpt-6-luna",
+      "notes": "Preserve primary model and previously verified endpoint. Newer GPT-6.1 Sol is not substituted for the user-specified Luna. Reserve includes cache-write ceiling.",
+      "output_bound": "0.0000005",
+      "output_policy": "Prompt-only strict JSON; do not let token/schema repair retries depend on action correctness. Protocol may choose a different shared response-format policy before freezing; GLM native does not advertise structured_outputs.",
+      "provider_ignore": [
+        "amazon-bedrock/us-east-1",
+        "azure",
+        "azure/eu",
+        "azure/us",
+        "openai/fast",
+        "openai/flex"
+      ],
+      "provider_name": "OpenAI",
+      "provider_request": {
+        "allow_fallbacks": false,
+        "ignore": [
+          "amazon-bedrock/us-east-1",
+          "azure",
+          "azure/eu",
+          "azure/us",
+          "openai/fast",
+          "openai/flex"
+        ],
+        "only": [
+          "openai"
+        ],
+        "require_parameters": true
+      },
+      "provider_tag": "openai",
+      "public_metadata_path": "public_endpoints_openai_gpt-6-luna.json",
+      "public_metadata_sha256": "3758455c89d679dea670955e19c1d2852d3ec938afe95153507263b6cd2aaec7",
+      "quantization": "unknown",
+      "request_forbidden_fields": [
+        "tools",
+        "tool_choice",
+        "temperature",
+        "top_p",
+        "top_k",
+        "response_format"
+      ],
+      "request_reasoning": {
+        "effort": "none"
+      },
+      "reservation_usd_per_token": {
+        "input": "0.000000125",
+        "output": "0.0000005"
+      },
+      "returned_identity_status": "Strict candidate allowlist, not a claim of newly observed response. Compatibility must pass before science; retain any mismatch.",
+      "returned_model_allowlist": [
+        "openai/gpt-6-luna"
+      ],
+      "returned_provider_allowlist": [
+        "OpenAI"
+      ],
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-6-luna"
+      ],
+      "temperature": null
+    },
+    "qwen": {
+      "allowed_models": [
+        "qwen/qwen3.8-omni-flash"
+      ],
+      "api_url": "https://openrouter.ai/api/v1/chat/completions",
+      "catalog_reasoning": {
+        "default_enabled": true,
+        "mandatory": false,
+        "supports_max_tokens": true
+      },
+      "endpoint_model_identifier": "qwen/qwen3.8-omni-flash-20260918",
+      "endpoint_name": "Alibaba | qwen/qwen3.8-omni-flash-20260918",
+      "endpoint_pricing": {
+        "completion": "0.00000047",
+        "discount": 0,
+        "input_cache_read": "0.000000016",
+        "prompt": "0.00000015"
+      },
+      "endpoint_supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "seed",
+        "presence_penalty",
+        "response_format",
+        "tools",
+        "structured_outputs",
+        "top_k",
+        "frequency_penalty",
+        "stop",
+        "logprobs",
+        "top_logprobs",
+        "tool_choice"
+      ],
+      "input_bound": "0.0000002",
+      "key": "qwen",
+      "max_prompt_bound": 4921,
+      "model": "qwen/qwen3.8-omni-flash",
+      "model_id": "qwen/qwen3.8-omni-flash",
+      "notes": "Omni Flash endpoint 20260918 is newer than Flash 20260826 and same public text price. Pure text input/output only. No paid compatibility call yet. Alternate ordinary Flash must be declared before outcomes if compatibility fails; not selected by task correctness.",
+      "output_bound": "0.00000047",
+      "output_policy": "Prompt-only strict JSON; do not let token/schema repair retries depend on action correctness. Protocol may choose a different shared response-format policy before freezing; GLM native does not advertise structured_outputs.",
+      "provider_ignore": [],
+      "provider_name": "Alibaba",
+      "provider_request": {
+        "allow_fallbacks": false,
+        "ignore": [],
+        "only": [
+          "alibaba"
+        ],
+        "require_parameters": true
+      },
+      "provider_tag": "alibaba",
+      "public_metadata_path": "public_endpoints_qwen_qwen3.8-omni-flash.json",
+      "public_metadata_sha256": "438ad5d6c11ff4b258178ae90c635e0b9d5bfa681ed9ae12b4f988e54e3a6ecd",
+      "quantization": "unknown",
+      "request_forbidden_fields": [
+        "tools",
+        "tool_choice",
+        "temperature",
+        "top_p",
+        "top_k",
+        "response_format"
+      ],
+      "request_reasoning": {
+        "enabled": false
+      },
+      "reservation_usd_per_token": {
+        "input": "0.0000002",
+        "output": "0.00000047"
+      },
+      "returned_identity_status": "Strict candidate allowlist, not a claim of newly observed response. Compatibility must pass before science; retain any mismatch.",
+      "returned_model_allowlist": [
+        "qwen/qwen3.8-omni-flash"
+      ],
+      "returned_provider_allowlist": [
+        "Alibaba"
+      ],
+      "sources": [
+        "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-omni-flash",
+        "https://www.alibabacloud.com/help/en/model-studio/qwen-api-via-openai-chat-completions"
+      ],
+      "temperature": null
+    },
+    "deepseek": {
+      "allowed_models": [
+        "deepseek/deepseek-v4.1-flash"
+      ],
+      "api_url": "https://openrouter.ai/api/v1/chat/completions",
+      "catalog_reasoning": {
+        "default_effort": "high",
+        "default_enabled": true,
+        "mandatory": false,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low"
+        ]
+      },
+      "endpoint_model_identifier": "deepseek/deepseek-v4.1-flash-20260910",
+      "endpoint_name": "DeepInfra | deepseek/deepseek-v4.1-flash-20260910",
+      "endpoint_pricing": {
+        "completion": "0.00000042",
+        "discount": 0.3,
+        "input_cache_read": "0.0000000042",
+        "prompt": "0.00000014"
+      },
+      "endpoint_supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "stop",
+        "frequency_penalty",
+        "presence_penalty",
+        "repetition_penalty",
+        "top_k",
+        "seed",
+        "min_p",
+        "logit_bias",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "response_format",
+        "reasoning_effort"
+      ],
+      "input_bound": "0.0000003",
+      "key": "deepseek",
+      "max_prompt_bound": 5320,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "model_id": "deepseek/deepseek-v4.1-flash",
+      "notes": "DeepInfra FP8 explicitly pinned; do not claim native DeepSeek full-precision serving. Native DeepSeek previously blocked by account training-data guardrail; preserve privacy settings. Historical DeepInfra two compatibility probes returned this model/provider with integer zero reasoning tokens. Current public discount .14/.42 per M; reserve .30/1.20 exceeds listed undiscounted .20/.60.",
+      "output_bound": "0.0000012",
+      "output_policy": "Prompt-only strict JSON; do not let token/schema repair retries depend on action correctness. Protocol may choose a different shared response-format policy before freezing; GLM native does not advertise structured_outputs.",
+      "provider_ignore": [
+        "alibaba",
+        "atlas-cloud/fp8",
+        "baidu/fp8",
+        "baseten/fp8",
+        "coreweave/fp8",
+        "decart/fp4",
+        "deepseek",
+        "dekallm",
+        "digitalocean",
+        "fireworks",
+        "fireworks/us",
+        "gmicloud/fp8",
+        "inference-net",
+        "ionstream",
+        "makora/fp8",
+        "modal",
+        "morph/fp8",
+        "nextbit/fp8",
+        "novita/fp8",
+        "open-inference/fp4",
+        "parasail/fp8",
+        "phala",
+        "relace",
+        "sail-research/fp4",
+        "siliconflow/fp8",
+        "streamlake/fp8",
+        "together",
+        "venice/fp8",
+        "wafer"
+      ],
+      "provider_name": "DeepInfra",
+      "provider_request": {
+        "allow_fallbacks": false,
+        "ignore": [
+          "alibaba",
+          "atlas-cloud/fp8",
+          "baidu/fp8",
+          "baseten/fp8",
+          "coreweave/fp8",
+          "decart/fp4",
+          "deepseek",
+          "dekallm",
+          "digitalocean",
+          "fireworks",
+          "fireworks/us",
+          "gmicloud/fp8",
+          "inference-net",
+          "ionstream",
+          "makora/fp8",
+          "modal",
+          "morph/fp8",
+          "nextbit/fp8",
+          "novita/fp8",
+          "open-inference/fp4",
+          "parasail/fp8",
+          "phala",
+          "relace",
+          "sail-research/fp4",
+          "siliconflow/fp8",
+          "streamlake/fp8",
+          "together",
+          "venice/fp8",
+          "wafer"
+        ],
+        "only": [
+          "deepinfra/fp8"
+        ],
+        "require_parameters": true
+      },
+      "provider_tag": "deepinfra/fp8",
+      "public_metadata_path": "public_endpoints_deepseek_deepseek-v4.1-flash.json",
+      "public_metadata_sha256": "d4ced178c3c09666b7e9211ebb1c5eaa3d53241a13f05ad13af1f4b073fbb752",
+      "quantization": "fp8",
+      "request_forbidden_fields": [
+        "tools",
+        "tool_choice",
+        "temperature",
+        "top_p",
+        "top_k",
+        "response_format"
+      ],
+      "request_reasoning": {
+        "enabled": false
+      },
+      "reservation_usd_per_token": {
+        "input": "0.0000003",
+        "output": "0.0000012"
+      },
+      "returned_identity_status": "Strict candidate allowlist, not a claim of newly observed response. Compatibility must pass before science; retain any mismatch.",
+      "returned_model_allowlist": [
+        "deepseek/deepseek-v4.1-flash"
+      ],
+      "returned_provider_allowlist": [
+        "DeepInfra"
+      ],
+      "sources": [
+        "https://api-docs.deepseek.com/guides/thinking_mode/"
+      ],
+      "temperature": null
+    }
+  },
+  "payload_keys": [
+    "model",
+    "messages",
+    "max_tokens",
+    "reasoning",
+    "provider"
+  ],
+  "token_ceilings": [
+    128,
+    512,
+    2048
+  ],
+  "sampling": "No temperature, top_p, or API seed was submitted; label/allocation/analysis seeds are recorded separately."
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "file": "collection_history/check_prediction_independently.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/check_prediction_independently.py",
+    "sha256": "6a1f7fec6bd3b7669b8dd7f439e190c38c0235998e99be722c7240013ad83abc"
+  },
+  {
+    "file": "collection_history/analyze_extraction_sensitivity.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/analyze_extraction_sensitivity.py",
+    "sha256": "33e65e8c920734e1b25d835c015ccfb1de11070f6bcb015fd901b8b3239b1d0b"
+  },
+  {
+    "file": "collection_history/terminal_reader.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/terminal_reader.py",
+    "sha256": "014ce4d353dcbc84beb2f6cde893f090e68d0c3caec7a8d452a354a976a843f4"
+  },
+  {
+    "file": "collection_history/export_ceiling2048.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/export_ceiling2048.py",
+    "sha256": "eeede6c60c90fb8f96005907a79e6b5826afdcb19e45d81e41ef643364e25fa8"
+  },
+  {
+    "file": "collection_history/ceiling2048_contract.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/ceiling2048_contract.py",
+    "sha256": "696d1e615d6f611c3347b3fe6de0708ed0a16680e9172bfca114f3806748b494"
+  },
+  {
+    "file": "collection_history/ceiling2048_ledger.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/ceiling2048_ledger.py",
+    "sha256": "f290db214b1a84c403f1073261295622757f7e5973fcd0e64da2021722248e6b"
+  },
+  {
+    "file": "collection_history/ceiling2048_response.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/ceiling2048_response.py",
+    "sha256": "d90c1b4305c0c6d4fe8ae6214e82b28ca39f85c980968013c93795555c5d7d8c"
+  },
+  {
+    "file": "collection_history/answer_extraction.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/answer_extraction.py",
+    "sha256": "59748f5bf4060acce9cf029e629d7faab4e9681322c536132b9a67a29dbfba91"
+  },
+  {
+    "file": "collection_history/runtime.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/runtime.py",
+    "sha256": "437798510d6d1f0b88603051ab040c698416e42c86b268778bbce98e23e9ca56"
+  },
+  {
+    "file": "collection_history/protocol.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/protocol.py",
+    "sha256": "6a7827d78213200b46c2048ab1ca62c9f2659a07f43aee287246851b9c185957"
+  },
+  {
+    "file": "collection_history/ceiling2048_source.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/ceiling2048_source.py",
+    "sha256": "4c61cc1e48a11b2d7e537c83ec1189d9aa9d9269d12306cf597fe288818cf27c"
+  },
+  {
+    "file": "collection_history/export_completion.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/export_completion.py",
+    "sha256": "32bb0628f06d672455feaf923c2a7e781fe867938ca50f813af08aa89185316b"
+  },
+  {
+    "file": "collection_history/supplement_contract.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/supplement_contract.py",
+    "sha256": "18e42d703dc6509c82c6c2afea61404fb0618ed04bb768a004edcea2539ccfe7"
+  },
+  {
+    "file": "collection_history/supplement_ledger.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/supplement_ledger.py",
+    "sha256": "2de3e80a1a5fa4f7b7c33504e19d5e0be99d1a20c6e5e518d073003cd1e6cf43"
+  },
+  {
+    "file": "collection_history/supplement_response.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/supplement_response.py",
+    "sha256": "648b7188869af50a60ac9d4edd454d154db485af5645ade4c8701b070e2c5e65"
+  },
+  {
+    "file": "collection_history/answer_recovery.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/answer_recovery.py",
+    "sha256": "e1c6e37f13055c89d56f99a2f8fa58397db78f41fea61134e6c09f9f09844632"
+  },
+  {
+    "file": "collection_history/analysis.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/analysis.py",
+    "sha256": "25c09d897f642c9fcbd6cb49289aa3f7bc23d1946be618e9d63766b18eef0945"
+  },
+  {
+    "file": "collection_history/answer_recovery_source.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/answer_recovery_source.py",
+    "sha256": "3882e85e44b58d0db885843ae5dcbbfcf44367f7b76185a20a01c3a617890a9f"
+  },
+  {
+    "file": "collection_history/export_validation.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/export_validation.py",
+    "sha256": "3b2474d30ef903b837934ba3da8a88374af291a5fcacc51843f8ddca2cf5b9cb"
+  },
+  {
+    "file": "collection_history/ceiling2048_validation.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/ceiling2048_validation.py",
+    "sha256": "f763cd2c3d14c36959f3235d05db230dbc988a8aeb1ff971437ca8e0e76ff8cc"
+  },
+  {
+    "file": "collection_history/supplement_validation.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/supplement_validation.py",
+    "sha256": "07d416a07505446341897d211e1bee0efa924eac5bc1f4d3f706e1fe5ace8923"
+  },
+  {
+    "file": "collection_history/recover_validation_io.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/recover_validation_io.py",
+    "sha256": "3c34fda66f227bd6cc4d99f44a831c83e339b849a228c987a531d94975ca520a"
+  },
+  {
+    "file": "collection_history/supervise_validation.py",
+    "source_relative_to_original_project": "Experiments/luna_revision/supervise_validation.py",
+    "sha256": "007e294d7a9e80b8f70d9acc0dd612311b6d90219c7f874c6a0e54d5281c5c83"
+  }
+]

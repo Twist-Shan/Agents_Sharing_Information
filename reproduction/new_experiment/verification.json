@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "tests": [
+    "deterministic allocation",
+    "all nuisance combinations",
+    "original prefix identity",
+    "truth tables",
+    "schema independent of correctness",
+    "nested summary panel",
+    "perfect oracle and ceiling handling",
+    "partial/fully missing planned denominators",
+    "hand-computed contrasts",
+    "independent variance/df check",
+    "wrong answers retained",
+    "finite JSON outputs"
+  ],
+  "scientific_requests": 5376,
+  "paid_calls": 0,
+  "planned_sha256": "94721dd7d640d2b3c4e619f84a83ddd2b666c1d088f7bd38855d8d6a7dfec868"
+}

@@ -1,0 +1,22 @@
+model,context,p,join_safe4,join_safe6,safe4_minus_safe6,n_per_safe,interpretation
+deepseek,full,0.5,0.6875,0.3515625,0.3359375,128,descriptive; no new uncertainty interval or confirmatory test
+deepseek,minimal,0.5,0.71875,0.5625,0.15625,32,descriptive; no new uncertainty interval or confirmatory test
+deepseek,payoff_card,0.5,0.9765625,0.0,0.9765625,128,descriptive; no new uncertainty interval or confirmatory test
+luna,full,0.2,0.34375,0.3203125,0.0234375,256,descriptive; no new uncertainty interval or confirmatory test
+luna,full,0.35,0.36328125,0.3671875,-0.00390625,256,descriptive; no new uncertainty interval or confirmatory test
+luna,full,0.5,0.54296875,0.47265625,0.0703125,256,descriptive; no new uncertainty interval or confirmatory test
+luna,full,0.65,0.671875,0.5859375,0.0859375,256,descriptive; no new uncertainty interval or confirmatory test
+luna,full,0.8,0.66796875,0.7265625,-0.05859375,256,descriptive; no new uncertainty interval or confirmatory test
+luna,minimal,0.2,0.421875,0.265625,0.15625,64,descriptive; no new uncertainty interval or confirmatory test
+luna,minimal,0.35,0.625,0.546875,0.078125,64,descriptive; no new uncertainty interval or confirmatory test
+luna,minimal,0.5,0.78125,0.796875,-0.015625,64,descriptive; no new uncertainty interval or confirmatory test
+luna,minimal,0.65,0.84375,0.90625,-0.0625,64,descriptive; no new uncertainty interval or confirmatory test
+luna,minimal,0.8,0.8125,0.90625,-0.09375,64,descriptive; no new uncertainty interval or confirmatory test
+luna,payoff_card,0.2,0.0,0.0,0.0,256,descriptive; no new uncertainty interval or confirmatory test
+luna,payoff_card,0.35,0.0,0.0,0.0,256,descriptive; no new uncertainty interval or confirmatory test
+luna,payoff_card,0.5,1.0,0.0,1.0,256,descriptive; no new uncertainty interval or confirmatory test
+luna,payoff_card,0.65,1.0,1.0,0.0,256,descriptive; no new uncertainty interval or confirmatory test
+luna,payoff_card,0.8,1.0,1.0,0.0,256,descriptive; no new uncertainty interval or confirmatory test
+qwen,full,0.5,0.125,0.1640625,-0.0390625,128,descriptive; no new uncertainty interval or confirmatory test
+qwen,minimal,0.5,0.8125,0.8125,0.0,32,descriptive; no new uncertainty interval or confirmatory test
+qwen,payoff_card,0.5,1.0,0.0,1.0,128,descriptive; no new uncertainty interval or confirmatory test

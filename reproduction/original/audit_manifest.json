@@ -1,0 +1,32 @@
+{
+  "status": "passed_offline_source_and_report_audit",
+  "models": [
+    "luna",
+    "qwen",
+    "deepseek"
+  ],
+  "requests": 44800,
+  "template_count": 3488,
+  "request_roles": {
+    "user": 44800
+  },
+  "all_prompts_equal_frozen_generator": true,
+  "all_original_128_payload_hashes_match": true,
+  "all_terminal_export_member_hashes_match": true,
+  "all_reported_models_complete": true,
+  "seeds": {
+    "labels": 16411,
+    "allocation": 8879,
+    "analysis": 4273,
+    "prediction": 7321
+  },
+  "source_files_sha256": {
+    "Experiments\\luna_revision\\protocol.py": "6a7827d78213200b46c2048ab1ca62c9f2659a07f43aee287246851b9c185957",
+    "Experiments\\luna_revision\\runtime.py": "437798510d6d1f0b88603051ab040c698416e42c86b268778bbce98e23e9ca56",
+    "Experiments\\luna_revision\\analysis.py": "25c09d897f642c9fcbd6cb49289aa3f7bc23d1946be618e9d63766b18eef0945",
+    "Experiments\\luna_revision\\validation\\planned.jsonl": "fdce6b76218e77e09c6ba7c2d6c87ce14edbcb8624affb22cfe488f7c60c7651",
+    "Experiments\\luna_revision\\validation\\manifest.json": "2750673e5c82f3903da0a11bde9e326d2936c410d9ef8246572cd1fe2edc5edb",
+    "Experiments\\luna_revision\\completion_2048_deepseek\\terminal_export\\logical_outcomes.csv": "2d3ae61147a1ee3a0cb6508b7fdff2ec535929dd19b0bd2aaa99d6dd7ec62d98",
+    "Experiments\\luna_revision\\completion_2048_deepseek\\terminal_export\\export_manifest.json": "9efbfcb74349a43e01407d29ffaa7473dafb48e637e58da2d0877c76a7509fa8"
+  }
+}

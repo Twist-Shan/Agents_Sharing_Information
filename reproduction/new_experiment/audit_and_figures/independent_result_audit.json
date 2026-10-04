@@ -1,0 +1,771 @@
+{
+  "passed": true,
+  "mode_rates": {
+    "U": {
+      "correct": 474,
+      "n": 768,
+      "accuracy": 0.6171875
+    },
+    "D1": {
+      "correct": 768,
+      "n": 768,
+      "accuracy": 1.0
+    },
+    "D2": {
+      "correct": 727,
+      "n": 768,
+      "accuracy": 0.9466145833333334
+    },
+    "D3": {
+      "correct": 347,
+      "n": 768,
+      "accuracy": 0.4518229166666667
+    },
+    "A1": {
+      "correct": 541,
+      "n": 768,
+      "accuracy": 0.7044270833333334
+    },
+    "A2": {
+      "correct": 555,
+      "n": 768,
+      "accuracy": 0.72265625
+    },
+    "A3": {
+      "correct": 767,
+      "n": 768,
+      "accuracy": 0.9986979166666666
+    }
+  },
+  "adjacent_contrasts": {
+    "A1_minus_U": {
+      "estimate": 0.08723958333333333,
+      "approximate_family95": [
+        0.037106941305277405,
+        0.13737222536138927
+      ],
+      "hoeffding_family95": [
+        -0.4597688571169744,
+        0.6342480237836411
+      ],
+      "standard_error": 0.01940684586795749,
+      "degrees_of_freedom": 22.860821365719385,
+      "wording_means": {
+        "0": 0.06770833333333333,
+        "1": 0.05208333333333333,
+        "2": 0.11458333333333333,
+        "3": 0.11458333333333333
+      }
+    },
+    "A2_minus_A1": {
+      "estimate": 0.018229166666666664,
+      "approximate_family95": [
+        -0.029673775673959867,
+        0.06613210900729319
+      ],
+      "hoeffding_family95": [
+        -0.5287792737836411,
+        0.5652376071169743
+      ],
+      "standard_error": 0.018636499226588107,
+      "degrees_of_freedom": 24.414575651389278,
+      "wording_means": {
+        "0": -0.041666666666666664,
+        "1": -0.010416666666666668,
+        "2": 0.09895833333333333,
+        "3": 0.026041666666666664
+      }
+    },
+    "A3_minus_A2": {
+      "estimate": 0.2760416666666667,
+      "approximate_family95": [
+        0.23800140737694242,
+        0.31408192595639095
+      ],
+      "hoeffding_family95": [
+        -0.27096677378364104,
+        0.8230501071169745
+      ],
+      "standard_error": 0.014894896740452085,
+      "degrees_of_freedom": 26.76878201739194,
+      "wording_means": {
+        "0": 0.2760416666666667,
+        "1": 0.3072916666666667,
+        "2": 0.203125,
+        "3": 0.31770833333333337
+      }
+    }
+  },
+  "first_valid": 5357,
+  "first_missing": 19,
+  "missing_causes": {
+    "interrupted_unknown": 16,
+    "transport": 3
+  },
+  "known_cost_usd": "0.3028449",
+  "reserved_cost_usd": "0.015975375",
+  "occupied_usd": "43.68265773418",
+  "raw_accepted_format_counts": {
+    "direct_json": 5377
+  },
+  "schema_failure_count": 0,
+  "numeric_domain_violations": [],
+  "D3_safe_score_correct": 768,
+  "complement_S_by_wording": {
+    "U": {
+      "0": {
+        "correct": 31,
+        "n": 32
+      },
+      "1": {
+        "correct": 24,
+        "n": 32
+      },
+      "2": {
+        "correct": 13,
+        "n": 32
+      },
+      "3": {
+        "correct": 11,
+        "n": 32
+      }
+    },
+    "D1": {
+      "0": {
+        "correct": 32,
+        "n": 32
+      },
+      "1": {
+        "correct": 32,
+        "n": 32
+      },
+      "2": {
+        "correct": 32,
+        "n": 32
+      },
+      "3": {
+        "correct": 32,
+        "n": 32
+      }
+    },
+    "D2": {
+      "0": {
+        "correct": 32,
+        "n": 32
+      },
+      "1": {
+        "correct": 25,
+        "n": 32
+      },
+      "2": {
+        "correct": 30,
+        "n": 32
+      },
+      "3": {
+        "correct": 16,
+        "n": 32
+      }
+    },
+    "D3": {
+      "0": {
+        "correct": 21,
+        "n": 32
+      },
+      "1": {
+        "correct": 18,
+        "n": 32
+      },
+      "2": {
+        "correct": 28,
+        "n": 32
+      },
+      "3": {
+        "correct": 6,
+        "n": 32
+      }
+    },
+    "A1": {
+      "0": {
+        "correct": 32,
+        "n": 32
+      },
+      "1": {
+        "correct": 32,
+        "n": 32
+      },
+      "2": {
+        "correct": 32,
+        "n": 32
+      },
+      "3": {
+        "correct": 29,
+        "n": 32
+      }
+    },
+    "A2": {
+      "0": {
+        "correct": 32,
+        "n": 32
+      },
+      "1": {
+        "correct": 32,
+        "n": 32
+      },
+      "2": {
+        "correct": 32,
+        "n": 32
+      },
+      "3": {
+        "correct": 31,
+        "n": 32
+      }
+    },
+    "A3": {
+      "0": {
+        "correct": 32,
+        "n": 32
+      },
+      "1": {
+        "correct": 31,
+        "n": 32
+      },
+      "2": {
+        "correct": 32,
+        "n": 32
+      },
+      "3": {
+        "correct": 32,
+        "n": 32
+      }
+    }
+  },
+  "policy_law_rates": {
+    "responsive_R": {
+      "U": {
+        "correct": 64,
+        "n": 128
+      },
+      "D1": {
+        "correct": 128,
+        "n": 128
+      },
+      "D2": {
+        "correct": 125,
+        "n": 128
+      },
+      "D3": {
+        "correct": 59,
+        "n": 128
+      },
+      "A1": {
+        "correct": 68,
+        "n": 128
+      },
+      "A2": {
+        "correct": 80,
+        "n": 128
+      },
+      "A3": {
+        "correct": 128,
+        "n": 128
+      }
+    },
+    "responsive_S": {
+      "U": {
+        "correct": 104,
+        "n": 128
+      },
+      "D1": {
+        "correct": 128,
+        "n": 128
+      },
+      "D2": {
+        "correct": 120,
+        "n": 128
+      },
+      "D3": {
+        "correct": 91,
+        "n": 128
+      },
+      "A1": {
+        "correct": 123,
+        "n": 128
+      },
+      "A2": {
+        "correct": 123,
+        "n": 128
+      },
+      "A3": {
+        "correct": 128,
+        "n": 128
+      }
+    },
+    "independent_R": {
+      "U": {
+        "correct": 74,
+        "n": 128
+      },
+      "D1": {
+        "correct": 128,
+        "n": 128
+      },
+      "D2": {
+        "correct": 128,
+        "n": 128
+      },
+      "D3": {
+        "correct": 34,
+        "n": 128
+      },
+      "A1": {
+        "correct": 77,
+        "n": 128
+      },
+      "A2": {
+        "correct": 76,
+        "n": 128
+      },
+      "A3": {
+        "correct": 128,
+        "n": 128
+      }
+    },
+    "independent_S": {
+      "U": {
+        "correct": 86,
+        "n": 128
+      },
+      "D1": {
+        "correct": 128,
+        "n": 128
+      },
+      "D2": {
+        "correct": 128,
+        "n": 128
+      },
+      "D3": {
+        "correct": 48,
+        "n": 128
+      },
+      "A1": {
+        "correct": 80,
+        "n": 128
+      },
+      "A2": {
+        "correct": 79,
+        "n": 128
+      },
+      "A3": {
+        "correct": 128,
+        "n": 128
+      }
+    },
+    "complement_R": {
+      "U": {
+        "correct": 67,
+        "n": 128
+      },
+      "D1": {
+        "correct": 128,
+        "n": 128
+      },
+      "D2": {
+        "correct": 123,
+        "n": 128
+      },
+      "D3": {
+        "correct": 42,
+        "n": 128
+      },
+      "A1": {
+        "correct": 68,
+        "n": 128
+      },
+      "A2": {
+        "correct": 70,
+        "n": 128
+      },
+      "A3": {
+        "correct": 128,
+        "n": 128
+      }
+    },
+    "complement_S": {
+      "U": {
+        "correct": 79,
+        "n": 128
+      },
+      "D1": {
+        "correct": 128,
+        "n": 128
+      },
+      "D2": {
+        "correct": 103,
+        "n": 128
+      },
+      "D3": {
+        "correct": 73,
+        "n": 128
+      },
+      "A1": {
+        "correct": 125,
+        "n": 128
+      },
+      "A2": {
+        "correct": 127,
+        "n": 128
+      },
+      "A3": {
+        "correct": 127,
+        "n": 128
+      }
+    }
+  },
+  "D3_wrong_join_patterns": [
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "2.5",
+      "n": 161
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "1",
+      "n": 46
+    },
+    {
+      "true_p": "1.0",
+      "reported_join_EV": "5",
+      "n": 28
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "5",
+      "n": 25
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "1.25",
+      "n": 25
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "1E+1",
+      "n": 19
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "2",
+      "n": 17
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0.5",
+      "n": 12
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0",
+      "n": 12
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "3.75",
+      "n": 8
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "1E+1",
+      "n": 7
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "3",
+      "n": 6
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "4",
+      "n": 6
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0.625",
+      "n": 4
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "2",
+      "n": 3
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "1.6666666667",
+      "n": 3
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0.9375",
+      "n": 2
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "3.5",
+      "n": 2
+    },
+    {
+      "true_p": "1.0",
+      "reported_join_EV": "2.5",
+      "n": 2
+    },
+    {
+      "true_p": "1.0",
+      "reported_join_EV": "2",
+      "n": 2
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "1.875",
+      "n": 2
+    },
+    {
+      "true_p": "1.0",
+      "reported_join_EV": "0",
+      "n": 2
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "1.5",
+      "n": 2
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "6",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "2.625",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "2.1875",
+      "n": 1
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "0.8333333333333334",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0.8333333333",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "3.3333333333",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0.98",
+      "n": 1
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "1.6666666667",
+      "n": 1
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "3.3333333333",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0.8",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "1.5625",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "7",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0.4",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "6.25",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "5.5",
+      "n": 1
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "0.5",
+      "n": 1
+    },
+    {
+      "true_p": "1.0",
+      "reported_join_EV": "1",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0.8333333333333334",
+      "n": 1
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "0.4",
+      "n": 1
+    },
+    {
+      "true_p": "1.0",
+      "reported_join_EV": "4.8",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0.9090909091",
+      "n": 1
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "4.5",
+      "n": 1
+    },
+    {
+      "true_p": "0.0",
+      "reported_join_EV": "1.25",
+      "n": 1
+    },
+    {
+      "true_p": "0.5",
+      "reported_join_EV": "0.6",
+      "n": 1
+    },
+    {
+      "true_p": "1.0",
+      "reported_join_EV": "6",
+      "n": 1
+    }
+  ],
+  "D2_wrong_patterns": [
+    {
+      "policy": "complement",
+      "law": "S",
+      "wording": "3",
+      "reported_p": "1",
+      "n": 13
+    },
+    {
+      "policy": "complement",
+      "law": "S",
+      "wording": "1",
+      "reported_p": "0.5",
+      "n": 6
+    },
+    {
+      "policy": "responsive",
+      "law": "S",
+      "wording": "1",
+      "reported_p": "0.5",
+      "n": 4
+    },
+    {
+      "policy": "responsive",
+      "law": "S",
+      "wording": "2",
+      "reported_p": "0.5",
+      "n": 3
+    },
+    {
+      "policy": "complement",
+      "law": "S",
+      "wording": "3",
+      "reported_p": "0.5",
+      "n": 3
+    },
+    {
+      "policy": "complement",
+      "law": "R",
+      "wording": "3",
+      "reported_p": "0.25",
+      "n": 3
+    },
+    {
+      "policy": "complement",
+      "law": "S",
+      "wording": "2",
+      "reported_p": "0.5",
+      "n": 2
+    },
+    {
+      "policy": "responsive",
+      "law": "R",
+      "wording": "3",
+      "reported_p": "0.375",
+      "n": 1
+    },
+    {
+      "policy": "complement",
+      "law": "S",
+      "wording": "1",
+      "reported_p": "1",
+      "n": 1
+    },
+    {
+      "policy": "complement",
+      "law": "R",
+      "wording": "3",
+      "reported_p": "0.75",
+      "n": 1
+    },
+    {
+      "policy": "responsive",
+      "law": "R",
+      "wording": "0",
+      "reported_p": "1",
+      "n": 1
+    },
+    {
+      "policy": "complement",
+      "law": "R",
+      "wording": "0",
+      "reported_p": "0",
+      "n": 1
+    },
+    {
+      "policy": "responsive",
+      "law": "S",
+      "wording": "2",
+      "reported_p": "0",
+      "n": 1
+    },
+    {
+      "policy": "responsive",
+      "law": "R",
+      "wording": "2",
+      "reported_p": "0.25",
+      "n": 1
+    }
+  ],
+  "A3_errors": [
+    "b05-complement-S-s6-table-A3"
+  ],
+  "independence_note": "This file imports neither the protocol nor analysis implementation. CSV answers were rescored from the analytic partner rules; every primary CI was independently recomputed.",
+  "paid_calls": 0
+}

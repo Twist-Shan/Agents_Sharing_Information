@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "critical_findings": [],
+  "checks": [
+    "All schemas and single fences accepted",
+    "Well-formed wrong answers retained",
+    "Duplicates booleans nonfinite values extra keys prose conflicts rejected",
+    "Huge finite integers are accepted scientific errors without overflow",
+    "Reasoning identity token cost policy and transport gates",
+    "Unknown charges retain full reserve",
+    "Reconstruction preserves attempt counts and rejects retries after valid",
+    "Operational pause threshold latches",
+    "Actual interrupted-resume state machine passes with stubbed HTTP and preserves reserved unknown charge"
+  ],
+  "paid_calls": 0,
+  "frozen_manifest_sha256": "e0fef9f4f24caf21b865833fffa706a745f789e1977dbb1ab936c1901caeb8ce",
+  "first_pass_reserve_usd": "4.533127125",
+  "prior_plus_first_pass_usd": "47.89696458418",
+  "output_limit": 512,
+  "prior_occupied_usd": "43.36383745918",
+  "max_prompt_bound": 5003,
+  "note": "Numeric out-of-domain finite answers count as scientific errors, not retryable schema failures. No same-response mechanism interpretation."
+}

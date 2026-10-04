@@ -1,0 +1,26 @@
+{
+  "kind": "PORTABLE_POSTREVIEW_AUDIT_REPRODUCTION",
+  "model_calls": 0,
+  "requires_sibling_original_package": true,
+  "python_requirements": "Python >=3.10; standard library only",
+  "files_sha256": {
+    "acquisition_by_attempt.csv": "587385a600bc5b4f01855fcef7c079286eb41f6fed5fd24b5c7462225d2115d5",
+    "acquisition_by_id.csv": "61b32e27b4359c290ee83d33806306f34e3946c9e689a5803af7b48acf3ee040",
+    "all_parser_selected_responses.jsonl": "fef810026f851f542c3d9c7e9e4453b18be6ff3dbec223962abb2b9f1d158d4f",
+    "answer_extraction_frozen.py": "59748f5bf4060acce9cf029e629d7faab4e9681322c536132b9a67a29dbfba91",
+    "README.md": "e8247b91665d08843bd204ae9b9ea1f9c2867aa981084f806a48e01d3170848d",
+    "reference/acquisition_condition_summary.csv": "824204899a88220ae8ac852f325715a1a51b64a219af3f08ea5339a1fb8344f1",
+    "reference/acquisition_conditions.csv": "19b8c04d9e57abbc6dc2d288374c3444b950eb9eb87cd101931ae01ab367c1a2",
+    "reference/acquisition_models.csv": "040c07d86e4403de53013e0a79c9a0c8dd1989ffbfb8842d696e19556524f9ee",
+    "reference/acquisition_modules.csv": "5f3be4dd902241227f1d0d0eacf342ddb7e14d85dc547c76d4fec5d9396e9fbc",
+    "reference/all_programmed_policy_rates.csv": "b03abe63f5a2010279355edeaad8c3bdae3035e3b548f40d695f7b824cdbaa50",
+    "reference/capability_by_probability.csv": "c4a7c74d0308afd5aa10a19bb3adebad9dd295df28c82c7b6fc8d333b239fc0e",
+    "reference/first_attempt_bounds.csv": "b0157bac436397e9312a8854b8152badc361993230ae082d8baa3783fead9e40",
+    "reference/independent_pairing_baseline.csv": "c0eaf4022634edcd10ceb27ac5f411c2b7594348fdc210e576e5ce884c919cd9",
+    "reference/independent_pairing_changes.csv": "d99b6af489a5464917fd071b63090d58d1eab4ab0e6174348e90571eb31f634e",
+    "reference/independent_pairing_strata.csv": "2ab364313764a59032efbf7fd692080333aafadbc0d3f135789791928c66602e",
+    "reproduce_audits.py": "13e5f4472574cf48ce524654a809b44c5e95303b33221b635cf5fd1a072c3cc2"
+  },
+  "audit_inputs": "Selected original requests and complete scientific per-attempt lineage; no new-study data.",
+  "source_builder_sha256": "c659f9898d4287c7cc99e07fc5bfa610134c09eacfea305ccf6c4fa52ae45eea"
+}

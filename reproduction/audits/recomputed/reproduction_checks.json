@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "logical_ids": 44800,
+  "physical_attempt_rows": 47267,
+  "csvs_checked": 10,
+  "first_attempt_contrasts": 36,
+  "block_bounds_reconstructed": 14720,
+  "floating_point_tolerance": 2e-10,
+  "api_calls": 0,
+  "selected_parser_responses_replayed": 1012,
+  "parser_replay_disagreements": 0,
+  "requirements": "Python standard library only",
+  "original_request_map_sha256": "c4aede241b1786abfc8cad7eb3536096701fc7b7abf9d25a597a80b1ec54d127",
+  "checks": [
+    {
+      "file": "acquisition_models.csv",
+      "rows": 3,
+      "all_values_match": true
+    },
+    {
+      "file": "acquisition_modules.csv",
+      "rows": 19,
+      "all_values_match": true
+    },
+    {
+      "file": "acquisition_condition_summary.csv",
+      "rows": 134,
+      "all_values_match": true
+    },
+    {
+      "file": "acquisition_conditions.csv",
+      "rows": 792,
+      "all_values_match": true
+    },
+    {
+      "file": "independent_pairing_strata.csv",
+      "rows": 384,
+      "all_values_match": true
+    },
+    {
+      "file": "independent_pairing_baseline.csv",
+      "rows": 24,
+      "all_values_match": true
+    },
+    {
+      "file": "independent_pairing_changes.csv",
+      "rows": 12,
+      "all_values_match": true
+    },
+    {
+      "file": "all_programmed_policy_rates.csv",
+      "rows": 24,
+      "all_values_match": true
+    },
+    {
+      "file": "capability_by_probability.csv",
+      "rows": 21,
+      "all_values_match": true
+    },
+    {
+      "file": "first_attempt_bounds.csv",
+      "rows": 36,
+      "all_values_match": true
+    }
+  ],
+  "scope": "Numerical reproduction from selected records and complete operational lineage; not an independent audit of provider responses or parser fidelity.",
+  "limitations": [
+    "Retrospective first-response extractability is an audited input flag in acquisition_by_id.csv; raw first-response text is not reinterpreted here.",
+    "All 36 first-response contrast bounds are reconstructed independently of frozen_analysis.py using exact rational block arithmetic.",
+    "Confidence enclosures retain original block supports/family sizes and require independent, well-defined latent first-attempt block outcomes; no MAR assumption.",
+    "The paired baseline retains actor-specific marginals within every model/law/format/SAFE/wording/mapping/display-order stratum."
+  ]
+}

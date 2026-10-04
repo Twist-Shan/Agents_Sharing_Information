@@ -1,0 +1,14 @@
+{
+  "original_drawing_sources": [
+    "Experiments/luna_revision/plot_paper_design_v3.py",
+    "Experiments/luna_revision/plot_joint_outcomes_v3.py",
+    "Experiments/luna_revision/plot_validation.py"
+  ],
+  "adaptations": [
+    "Removed machine-specific paths and paper-editing side effects",
+    "Retained final labels from user_based_polish/relabel_figures.py",
+    "Overview drawing extracted from polish_contributions.py with final label changes",
+    "Figure inputs contain metadata only; local paths and account records excluded"
+  ],
+  "frozen_scientific_code_modified": false
+}

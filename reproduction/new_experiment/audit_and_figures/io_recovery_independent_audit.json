@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "paid_calls": 0,
+  "outcome_journals_read": false,
+  "wrapper_sha256": "2cd6c57c21ee32784d77ba7c4b6eb98a2050977431a9d4d3b7156f062318def1",
+  "checks": [
+    "Two conflicts then successful replacement",
+    "Thirty attempts and twenty-nine bounded waits",
+    "Existing destination intact after persistent conflict",
+    "Non-PermissionError not swallowed",
+    "Original frozen source hashes unchanged"
+  ],
+  "export_interpretation": "First started acquisition attempt; interrupted reservation without response is operational missingness, not a model failure."
+}

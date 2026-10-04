@@ -1,0 +1,38 @@
+{
+  "manifest_sha256": "e0fef9f4f24caf21b865833fffa706a745f789e1977dbb1ab936c1901caeb8ce",
+  "planned_sha256": "6120df20e3dd78f4dc5135d3626b806202830970b38ae6e444b88593f8ca590f",
+  "frozen_sources": {
+    "PLAN.md": "32a053406fe496eac09dd671b9158c6648dcfdc60203437a6359ad971610aa14",
+    "analysis.py": "d646e725097ecba428acdb46ce219a9d4959537ec51f37273787e17164f928fc",
+    "original_protocol.py": "6a7827d78213200b46c2048ab1ca62c9f2659a07f43aee287246851b9c185957",
+    "profiles.json": "876446fb80a83b17612520d60275c99cfe09dee7f64e51344f1cefe79f7c0ff4",
+    "protocol.py": "8ae0d97671d576685aaf56d3baca023f99929cbe64d7780eb785bed4164a9f12",
+    "runtime.py": "9828795efc75d39d58e37e2f6096aa066c115c802cee5c221942d25d3a09b7ec",
+    "verify.py": "46dcaa3df49655687d7f24ba10cd03f5a5f1966be6aaf5d81429315ea1fc1f57"
+  },
+  "status": {
+    "cumulative_occupied_usd": "43.68265773418",
+    "inflight": 0,
+    "lock_kind": "os_advisory_persistent_file",
+    "manifest_sha256": "e0fef9f4f24caf21b865833fffa706a745f789e1977dbb1ab936c1901caeb8ce",
+    "physical_settled": 5396,
+    "physical_started": 5396,
+    "pid": 35544,
+    "reason": null,
+    "science_accepted": 5376,
+    "scientific_planned": 5376,
+    "state": "complete",
+    "utc": "2026-10-04T09:00:08.715389+00:00"
+  },
+  "started_sha256": "59324e218ea73186450d8dbab7e8b408cb86ad09d4e605005b9af7fd4e83e229",
+  "attempts_sha256": "da0809103ea69ddf93f4c7e987604df8cad44d308d21bf0389c381565a8cb8dc",
+  "export_script_sha256": "12c128384fa43a4ecf1806d5b05c893770b43b72d272112416f98971589f42a9",
+  "analysis_seed": 8117,
+  "operational_amendments": {
+    "IO_RECOVERY.md": "a9559dc663453a6312bcba43acc28dfab2c2b3089ab18ca11154e2b8eea5ce4d",
+    "io_recovery.py": "2cd6c57c21ee32784d77ba7c4b6eb98a2050977431a9d4d3b7156f062318def1",
+    "io_recovery_audit.json": "5560ef0390bba803e664d61174523bc08da6756d878e2c0e24a62277e3579aff"
+  },
+  "paid_calls_by_export": 0,
+  "terminal_lock_verified": true
+}
