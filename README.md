@@ -1,10 +1,12 @@
 # Agents Sharing Information
 
-Code repository for **Same Payoffs, Different Choices: How Shared Information Shapes Agent Collaboration**.
+Code repository for **Same Payoffs, Different Choices: How Shared Information Shapes Agent Collaboration** and the accompanying Behavioral Economics (Fall 2026, Track C) report, **Framing and Inattention in Delegated Choice: Evidence from LLM Agents**.
 
-This repository contains experimental protocols, analysis, diagnostic tasks, and figure code for studying how language-model agents use information about a partner. Scientific responses are included so results can be reproduced on a CPU without an API key.
+This repository contains:
+- Full offline reproduction code, experimental protocols, analysis, diagnostic tasks, and frozen response archives for **Experiment 1** (`reproduction/`, `scripts/reproduce.py`, `figures/`).
+- LaTeX source, compiled PDF, figure code, and summary inputs for the **Track C course report** (`report/`, combining Experiment 1 with Experiments 2 and 3).
 
-**Start here:** [Quick start](#installation-and-quick-start) · [Reproduction guide](docs/REPRODUCING.md) · [Paper figures](figures/README.md) · [Data and scope](docs/DATA.md) · [Validation](docs/VALIDATION.md)
+**Start here:** [Track C report](report/README.md) · [Quick start](#installation-and-quick-start) · [Reproduction guide](docs/REPRODUCING.md) · [Paper figures](figures/README.md) · [Data and scope](docs/DATA.md) · [Validation](docs/VALIDATION.md)
 
 ## Research problem
 
@@ -24,9 +26,10 @@ These controls separate **adaptation to a partner**, **consistent choices under 
 Agents_Sharing_Information/
 ├── README.md
 ├── requirements.txt              Numerical and plotting dependencies
-├── scripts/reproduce.py          Offline reproduction entry point
+├── scripts/reproduce.py          Offline reproduction entry point (Experiment 1)
 ├── docs/                         Reproduction, data, and validation
-├── figures/                      Portable figure code and plotted inputs
+├── figures/                      Portable figure code and plotted inputs (Experiment 1)
+├── report/                       Track C report source, PDF, figures, and summary inputs
 ├── reproduction/
 │   ├── original/                 Original task, choices, and comparisons
 │   ├── audits/                   Missingness, extraction, and pairing

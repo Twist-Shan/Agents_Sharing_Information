@@ -1,0 +1,152 @@
+{
+ "B": {
+  "R": {
+   "correct": 26.5625,
+   "half": 39.0625,
+   "prior": 14.84375,
+   "both": 5.46875,
+   "other": 14.0625,
+   "n": 128
+  },
+  "S": {
+   "correct": 37.5,
+   "half": 32.03125,
+   "prior": 14.0625,
+   "both": 3.90625,
+   "other": 12.5,
+   "n": 128
+  }
+ },
+ "C": [
+  {
+   "context": "minimal",
+   "safe": 4,
+   "p": 0.2,
+   "n_planned": 64,
+   "n_valid": 64,
+   "join_count": 27,
+   "missing": 0,
+   "range": [
+    0.421875,
+    0.421875
+   ]
+  },
+  {
+   "context": "minimal",
+   "safe": 4,
+   "p": 0.35,
+   "n_planned": 64,
+   "n_valid": 64,
+   "join_count": 40,
+   "missing": 0,
+   "range": [
+    0.625,
+    0.625
+   ]
+  },
+  {
+   "context": "minimal",
+   "safe": 4,
+   "p": 0.5,
+   "n_planned": 64,
+   "n_valid": 64,
+   "join_count": 50,
+   "missing": 0,
+   "range": [
+    0.78125,
+    0.78125
+   ]
+  },
+  {
+   "context": "minimal",
+   "safe": 4,
+   "p": 0.65,
+   "n_planned": 64,
+   "n_valid": 64,
+   "join_count": 54,
+   "missing": 0,
+   "range": [
+    0.84375,
+    0.84375
+   ]
+  },
+  {
+   "context": "minimal",
+   "safe": 4,
+   "p": 0.8,
+   "n_planned": 64,
+   "n_valid": 64,
+   "join_count": 52,
+   "missing": 0,
+   "range": [
+    0.8125,
+    0.8125
+   ]
+  },
+  {
+   "context": "minimal",
+   "safe": 6,
+   "p": 0.2,
+   "n_planned": 64,
+   "n_valid": 64,
+   "join_count": 17,
+   "missing": 0,
+   "range": [
+    0.265625,
+    0.265625
+   ]
+  },
+  {
+   "context": "minimal",
+   "safe": 6,
+   "p": 0.35,
+   "n_planned": 64,
+   "n_valid": 64,
+   "join_count": 35,
+   "missing": 0,
+   "range": [
+    0.546875,
+    0.546875
+   ]
+  },
+  {
+   "context": "minimal",
+   "safe": 6,
+   "p": 0.5,
+   "n_planned": 64,
+   "n_valid": 64,
+   "join_count": 51,
+   "missing": 0,
+   "range": [
+    0.796875,
+    0.796875
+   ]
+  },
+  {
+   "context": "minimal",
+   "safe": 6,
+   "p": 0.65,
+   "n_planned": 64,
+   "n_valid": 64,
+   "join_count": 58,
+   "missing": 0,
+   "range": [
+    0.90625,
+    0.90625
+   ]
+  },
+  {
+   "context": "minimal",
+   "safe": 6,
+   "p": 0.8,
+   "n_planned": 64,
+   "n_valid": 64,
+   "join_count": 58,
+   "missing": 0,
+   "range": [
+    0.90625,
+    0.90625
+   ]
+  }
+ ]
+}

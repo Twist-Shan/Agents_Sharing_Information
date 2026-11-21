@@ -24,4 +24,8 @@ Historical identities, routes, settings, and prices record collection conditions
 
 API keys, account preflight responses, browser state, font binaries, virtual environments, unrelated drafts, the manuscript, and the excluded Sonnet cohort are absent. Generated verification and plotting outputs are ignored by Git.
 
+## Track C course report (`report/`)
+
+`report/` archives the LaTeX source (`report/report.tex`), compiled PDF (`report/report.pdf`), figures (`report/figure/*.pdf`), and figure scripts (`report/scripts/`) for *Framing and Inattention in Delegated Choice: Evidence from LLM Agents*. For Experiment 1, all claims and figures trace directly to the frozen offline reproduction archives under `reproduction/`. For Experiments 2 and 3 (the 12–13 October 2026 multi-model prior, outside-option, and abstract-lottery experiments), `report/scripts/extracted.json` and `report/scripts/clues_data.json` preserve the extracted condition summaries and estimates used to generate Figures 3–8; raw request/response transcripts from Experiments 2 and 3 are not bundled in this repository.
+
 The archive supports numerical reconstruction of the samples; it does not establish provider stationarity, a unique internal mechanism, or universal model performance. Component READMEs retain the statistical and collection limitations.
